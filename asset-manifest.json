@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.f855e6bc.css",
-    "main.js": "/Andrew-Meyer/static/js/main.638f0352.js",
+    "main.css": "/Andrew-Meyer/static/css/main.6214f3b1.css",
+    "main.js": "/Andrew-Meyer/static/js/main.756e4313.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
+    "static/media/id_photo.jpg": "/Andrew-Meyer/static/media/id_photo.21408541d6a96f176a58.jpg",
+    "static/media/Background.webp": "/Andrew-Meyer/static/media/Background.e56c0b7e5393c28afb92.webp",
+    "static/media/linkedin_logo.webp": "/Andrew-Meyer/static/media/linkedin_logo.69c088872ac91555e953.webp",
     "static/media/logo.svg": "/Andrew-Meyer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.e2eaa700096139913a59cae9c01ab3d4.svg",
+    "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.f855e6bc.css.map": "/Andrew-Meyer/static/css/main.f855e6bc.css.map",
-    "main.638f0352.js.map": "/Andrew-Meyer/static/js/main.638f0352.js.map",
+    "main.6214f3b1.css.map": "/Andrew-Meyer/static/css/main.6214f3b1.css.map",
+    "main.756e4313.js.map": "/Andrew-Meyer/static/js/main.756e4313.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.638f0352.js"
+    "static/css/main.6214f3b1.css",
+    "static/js/main.756e4313.js"
   ]
 }
