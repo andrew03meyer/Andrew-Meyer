@@ -11,7 +11,6 @@ function AboutMe(){
                 <h2>Opportunities:</h2>
                 <p>I'm currently looking for a year in industry for (Jun 2024 - Jul 2025) but also open for anything that will develop my skills. I enjoy data analysis as well as web development, but I am open to experience any type of technological opportunity.</p>
             </div>
-            <div>imma boutta cum</div>
         </div>
     );
 }
