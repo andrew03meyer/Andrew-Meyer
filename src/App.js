@@ -14,8 +14,8 @@ function App() {
           <Navigation />
 
           <Routes>
-              <Route path="/" exact component={Header} />
-              <Route path="/about" component={AboutMe} />
+              <Route path="/" element ={<Header />} />
+              <Route path="/about" element={<AboutMe />} />
           </Routes>
       </Router>
     </div>
