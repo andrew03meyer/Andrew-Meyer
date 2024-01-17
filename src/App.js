@@ -12,7 +12,7 @@ function App() {
       {/*<Header />*/}
       <Router>
         <Navigation />
-
+          <Header />
         <Routes>
           <Route path="/" element={<Header />} />
           <Route path="/about" element={<AboutMe />} />
