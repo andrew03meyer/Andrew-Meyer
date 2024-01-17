@@ -1,3 +1,8 @@
+#Notes:
+Deployment process
+  - lint:fix (Cleans up code. Use on master)
+  - npm run deploy (Creates build files)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
