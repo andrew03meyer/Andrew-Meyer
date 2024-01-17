@@ -1,3 +1,4 @@
+import React from 'react';
 function AboutMe() {
   return (
     <div className="AboutMe" style={{ display: "flex" }}>

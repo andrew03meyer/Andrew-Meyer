@@ -12,7 +12,7 @@ function App() {
         {/*<Header />*/}
       <Router>
           <Navigation />
-          
+
           <Routes>
               <Route path="/" exact component={Header} />
               <Route path="/about" component={AboutMe} />
