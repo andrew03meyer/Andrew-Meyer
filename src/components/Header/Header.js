@@ -2,7 +2,7 @@ import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import GitHubLogo from "../../assets/images/github_logo.svg";
 import PfP from "../../assets/images/id_photo.jpg";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
-import React from 'react';
+import React from "react";
 
 function Header() {
   return (
