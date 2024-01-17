@@ -1,18 +1,25 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe/AboutMe";
 import React from "react";
-// import Link from 'react-router';
+import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation";
 
 import {
-    BrowserRouter as Router, Routes, Route, Link
+    BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/*<AboutMe />*/}
-        <Link to="/AboutMe">Click me</Link>
+        <Header />
+        <Navigation />
+        
+      <Router>
+          <switch>
+              <Route path="/" exact component={Header} />
+              <Route path="/about" component={AboutMe} />
+          </switch>
+      </Router>
     </div>
   );
 }
