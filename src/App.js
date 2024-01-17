@@ -14,8 +14,8 @@ function App() {
         <Navigation />
 
         <Routes>
-          <Route path="/Andrew-Meyer/" element={<Header />} />
-          <Route path="/Andrew-Meyer/about" element={<AboutMe />} />
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<AboutMe />} />
         </Routes>
       </Router>
     </div>
