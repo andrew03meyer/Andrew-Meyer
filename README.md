@@ -1,7 +1,7 @@
 #Notes:
 Deployment process
   - lint:fix (Cleans up code. Use on master)
-  - npm run deploy (Creates build files)
+  - npm run deploy (Runs lint, Build, and Delpoy)
 
 # Getting Started with Create React App
 
