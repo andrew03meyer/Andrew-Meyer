@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
-import AMlogo from "../../assets/images/logo.svg";
+import AMlogo from "../assets/images/logopng.png";
 
 const Navigation = () => {
   return (
     <nav>
       <ul>
         <li>
-          <img src={AMlogo} alt="AM logo"></img>
+          <img className="logo" src={AMlogo} alt="AM logo"></img>
         </li>
         <li>
           <Link to="/Andrew-Meyer/">Home</Link>
