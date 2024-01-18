@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.b37eed42.css",
+    "main.css": "/Andrew-Meyer/static/css/main.590ef7d0.css",
     "main.js": "/Andrew-Meyer/static/js/main.24a0df40.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
     "static/media/id_photo.jpg": "/Andrew-Meyer/static/media/id_photo.21408541d6a96f176a58.jpg",
@@ -9,12 +9,12 @@
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.b37eed42.css.map": "/Andrew-Meyer/static/css/main.b37eed42.css.map",
+    "main.590ef7d0.css.map": "/Andrew-Meyer/static/css/main.590ef7d0.css.map",
     "main.24a0df40.js.map": "/Andrew-Meyer/static/js/main.24a0df40.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b37eed42.css",
+    "static/css/main.590ef7d0.css",
     "static/js/main.24a0df40.js"
   ]
 }
