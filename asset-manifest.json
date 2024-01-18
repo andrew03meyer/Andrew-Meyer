@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.7c8440bf.css",
-    "main.js": "/Andrew-Meyer/static/js/main.034ac197.js",
+    "main.css": "/Andrew-Meyer/static/css/main.7dd8194e.css",
+    "main.js": "/Andrew-Meyer/static/js/main.5f24361c.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
+    "static/media/kinsey2.jpg": "/Andrew-Meyer/static/media/kinsey2.74d133fc42989231f8c8.jpg",
+    "static/media/kinsey.jpg": "/Andrew-Meyer/static/media/kinsey.52c1fad1110a8c52f55a.jpg",
     "static/media/working.jpg": "/Andrew-Meyer/static/media/working.b8de97ac81ed976ce700.jpg",
     "static/media/id_photo.jpg": "/Andrew-Meyer/static/media/id_photo.21408541d6a96f176a58.jpg",
     "static/media/Drilling.jpg": "/Andrew-Meyer/static/media/Drilling.ca05397f9eab521a4204.jpg",
@@ -12,17 +14,18 @@
     "static/media/canalboat.jpg": "/Andrew-Meyer/static/media/canalboat.d12c2e7040cda8a293bd.jpg",
     "static/media/pub.jpg": "/Andrew-Meyer/static/media/pub.ce27342d2ce42b21d12a.jpg",
     "static/media/canoe.jpg": "/Andrew-Meyer/static/media/canoe.d2222a4ba1e701ab0c8c.jpg",
+    "static/media/instagram_logo.webp": "/Andrew-Meyer/static/media/instagram_logo.1d6d0317700c4f0c95b7.webp",
     "static/media/Background.webp": "/Andrew-Meyer/static/media/Background.e56c0b7e5393c28afb92.webp",
     "static/media/linkedin_logo.webp": "/Andrew-Meyer/static/media/linkedin_logo.69c088872ac91555e953.webp",
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.7c8440bf.css.map": "/Andrew-Meyer/static/css/main.7c8440bf.css.map",
-    "main.034ac197.js.map": "/Andrew-Meyer/static/js/main.034ac197.js.map",
+    "main.7dd8194e.css.map": "/Andrew-Meyer/static/css/main.7dd8194e.css.map",
+    "main.5f24361c.js.map": "/Andrew-Meyer/static/js/main.5f24361c.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c8440bf.css",
-    "static/js/main.034ac197.js"
+    "static/css/main.7dd8194e.css",
+    "static/js/main.5f24361c.js"
   ]
 }
