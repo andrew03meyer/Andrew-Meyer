@@ -40,9 +40,12 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 
-.logo{
-    width: 5%;
-    height: 2%;
+.logo {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: white 1px solid;
+    border-radius: 50%;
 }
 
 .name{

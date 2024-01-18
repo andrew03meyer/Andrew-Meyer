@@ -1,0 +1,21 @@
+.profile{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contents {
+    display: block;
+    background-color: #bab0a6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#id_photo {
+    width: 25%;
+    height: 15%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px grey;
+}
