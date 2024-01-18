@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import homeImage from "../../assets/images/homePhoto.jpg"
+import homeImage from "../../assets/images/homePhoto.jpg";
 
 function Header() {
   return (
@@ -11,10 +11,10 @@ function Header() {
           <div>
             <p>Hello. I'm glad you've found my page!</p>
             <p>
-              This website is for me to upload a bit about myself
-              (and spend some time developing my programming skills).
-              Do have a look around. There are some sections about me and
-              a gallery of a number of good times!
+              This website is for me to upload a bit about myself (and spend
+              some time developing my programming skills). Do have a look
+              around. There are some sections about me and a gallery of a number
+              of good times!
             </p>
           </div>
         </span>
