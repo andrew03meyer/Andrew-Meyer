@@ -1,4 +1,6 @@
 import Working from "../../assets/images/working.jpg";
+import Drilling from "../../assets/images/Drilling.jpg";
+import Wedding from "../../assets/images/Wedding.jpg";
 import PfP from "../../assets/images/id_photo.jpg";
 import React from "react";
 import './Header.css';
@@ -7,8 +9,8 @@ function Header() {
   return (
     <div className={"profile"}>
       <img id="id_photo" src={PfP} alt="ID Photo"></img>
-      <img id="id_photo" src={PfP} alt="ID Photo"></img>
-      <img id="id_photo" src={PfP} alt="ID Photo"></img>
+      <img id="id_photo" src={Drilling} alt="ID Photo"></img>
+      <img id="id_photo" src={Wedding} alt="ID Photo"></img>
       <img id="id_photo" src={Working} alt="ID Photo"></img>
       {/*</div>*/}
 
