@@ -15,8 +15,8 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Header />} />
-          <Route path="/about" element={<AboutMe />} />
+          <Route path="andrew03meyer.github.io/Andrew-Meyer/" element={<Header />} />
+          <Route path="andrew03meyer.github.io/Andrew-Meyer/about" element={<AboutMe />} />
         </Routes>
       </Router>
     </div>

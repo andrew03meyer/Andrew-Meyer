@@ -9,7 +9,7 @@ const Navigation = () => {
           <Link to="andrew03meyer.github.io/Andrew-Meyer/">Home</Link>
         </li>
         <li>
-          <Link to="andrew03meyer.github.io/Andrew-Meyer//about">About Me</Link>
+          <Link to="andrew03meyer.github.io/Andrew-Meyer/about">About Me</Link>
         </li>
       </ul>
     </nav>
