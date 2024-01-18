@@ -4,16 +4,12 @@ import Wedding from "../../assets/images/Wedding.jpg";
 import PfP from "../../assets/images/id_photo.jpg";
 import React from "react";
 import './Header.css';
+import PhotoCollage from "../PhotoCollage/PhotoCollage";
 
 function Header() {
   return (
+  <>
     <div className={"profile"}>
-      <img id="id_photo" src={PfP} alt="ID Photo"></img>
-      <img id="id_photo" src={Drilling} alt="ID Photo"></img>
-      <img id="id_photo" src={Wedding} alt="ID Photo"></img>
-      <img id="id_photo" src={Working} alt="ID Photo"></img>
-      {/*</div>*/}
-
       <span className={"contents"}>
         <h2>About me:</h2>
         <p>
@@ -35,6 +31,7 @@ function Header() {
         </p>
       </span>
     </div>
+  </>
   );
 }
 

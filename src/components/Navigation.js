@@ -10,20 +10,17 @@ const Navigation = () => {
   return (
     <nav>
       <ul>
-        <li>
-          <img className="logo" src={AMlogo} alt="AM logo"></img>
-        </li>
+        <li><img className="logo" src={AMlogo} alt="AM logo"></img></li>
         <li className="name">Andrew Meyer</li>
-        <li>
-          <Link to="/Andrew-Meyer/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Andrew-Meyer/about">About Me</Link>
-        </li>
+
+        <li><Link to="/Andrew-Meyer/">Home</Link></li>
+        <li><Link to="/Andrew-Meyer/about">About Me</Link></li>
+        <li><Link to="/Andrew-Meyer/gallery">Gallery</Link></li>
+
         <li className={"socials"} style={{ marginLeft: "auto" }}>
-          <a href="https://github.com/andrew03meyer">
-            <img className="logo" src={GitHubLogo} alt="github"></img>
-          </a>
+        <a href="https://github.com/andrew03meyer">
+          <img className="logo" src={GitHubLogo} alt="github"></img>
+        </a>
         </li>
         <li className={"socials"}>
           <a href="https://www.linkedin.com/in/andrew-meyer-200103266/">
