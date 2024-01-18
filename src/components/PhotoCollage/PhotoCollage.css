@@ -1,5 +1,5 @@
 .container{
-    margin: 1%;
+    /*margin: 1%;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -7,11 +7,13 @@
 }
 
 .image-hor{
-    width:25vw;
-    height: 20vw;
+    margin: 5px;
+    width:25%;
+    height: 25%;
 }
 
 .image-ver {
-    width: 20vw;
-    height: 25vw;
+    margin: 5px;
+    width: 20%;
+    height: 25%;
 }
