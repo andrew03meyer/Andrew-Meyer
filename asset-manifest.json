@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.7dd8194e.css",
-    "main.js": "/Andrew-Meyer/static/js/main.5f24361c.js",
+    "main.css": "/Andrew-Meyer/static/css/main.a21c0e52.css",
+    "main.js": "/Andrew-Meyer/static/js/main.b5fa6415.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/Andrew-Meyer/static/media/kinsey2.74d133fc42989231f8c8.jpg",
     "static/media/kinsey.jpg": "/Andrew-Meyer/static/media/kinsey.52c1fad1110a8c52f55a.jpg",
     "static/media/working.jpg": "/Andrew-Meyer/static/media/working.b8de97ac81ed976ce700.jpg",
+    "static/media/homePhoto.jpg": "/Andrew-Meyer/static/media/homePhoto.713d013692aaf2452947.jpg",
     "static/media/id_photo.jpg": "/Andrew-Meyer/static/media/id_photo.21408541d6a96f176a58.jpg",
     "static/media/Drilling.jpg": "/Andrew-Meyer/static/media/Drilling.ca05397f9eab521a4204.jpg",
     "static/media/meandbec.jpg": "/Andrew-Meyer/static/media/meandbec.ddd8a46ed25d29d6dbbd.jpg",
@@ -20,12 +21,12 @@
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.7dd8194e.css.map": "/Andrew-Meyer/static/css/main.7dd8194e.css.map",
-    "main.5f24361c.js.map": "/Andrew-Meyer/static/js/main.5f24361c.js.map",
+    "main.a21c0e52.css.map": "/Andrew-Meyer/static/css/main.a21c0e52.css.map",
+    "main.b5fa6415.js.map": "/Andrew-Meyer/static/js/main.b5fa6415.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd8194e.css",
-    "static/js/main.5f24361c.js"
+    "static/css/main.a21c0e52.css",
+    "static/js/main.b5fa6415.js"
   ]
 }
