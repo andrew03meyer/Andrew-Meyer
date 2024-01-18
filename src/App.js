@@ -1,7 +1,7 @@
+import React from "react";
 import "./App.css";
 import AboutMe from "./components/AboutMe/AboutMe";
-import React from "react";
-import Header from "./components/Header/Header";
+import Homepage from "./components/Homepage/Homepage";
 import Navigation from "./components/Navigation";
 import Gallery from "./components/Gallery/Gallery";
 
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/Andrew-Meyer/" element={<Header />} />
+          <Route path="/Andrew-Meyer/" element={<Homepage />} />
           <Route path="/Andrew-Meyer/about" element={<AboutMe />} />
           <Route path="/Andrew-Meyer/gallery" element={<Gallery />} />
         </Routes>

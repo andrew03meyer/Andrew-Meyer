@@ -1,0 +1,24 @@
+.profile{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contents {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+#home_photo {
+    width: 25%;
+    height: 15%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    /*box-shadow: 100px 10px 50px grey;*/
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+p {
+    margin: 1vw;
+    font-size: 20px;
+}

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Header from "./components/Header/Header";
+import Header from "./components/Homepage/Homepage";
 import AboutMe from "./components/AboutMe/AboutMe";
 
 import "./index.css";

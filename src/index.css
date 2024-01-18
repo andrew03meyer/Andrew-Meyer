@@ -29,12 +29,6 @@ p {
   font-family: Bahnschrift sans-serif;
 }
 
-/*.center {*/
-/*  display: block;*/
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
-/*}*/
-
 html {
   background-image: url("./assets/images/Background.webp");
   background-repeat: repeat;
