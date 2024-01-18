@@ -9,11 +9,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/*<Header />*/}
       <Router>
         <Navigation />
-        {/*<Header />*/}
-
         <Routes>
           <Route path="/Andrew-Meyer/" element={<Header />} />
           <Route path="/Andrew-Meyer/about" element={<AboutMe />} />

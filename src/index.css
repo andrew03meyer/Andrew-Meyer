@@ -16,14 +16,17 @@ h1 {
   color: #bab0a6;
   text-align: center;
   text-decoration: underline;
+  font-family: Bahnschrift sans-serif;
 }
 
 h2 {
   color: black;
+  font-family: Bahnschrift sans-serif;
 }
 
 p {
   color: black;
+  font-family: Bahnschrift sans-serif;
 }
 
 #id_photo {
@@ -41,22 +44,32 @@ p {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
-  margin: 20px;
+  width: 25px;
+  height: 25px;
+  margin: 0px;
   background-color: white;
   border: white 1px solid;
   border-radius: 50%;
 }
 
 .contents {
-  width: 46%;
+  display: block;
+  width: 95%;
   background-color: #bab0a6;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding: 20px;
+  /*margin-left: 1%;*/
+  /*margin-right: 1%;*/
+  padding: 10px;
   border-radius: 25px;
 }
+
+.profile{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*.socials{*/
+/*  float: right;*/
+/*}*/
 
 html {
   background-image: url("./assets/images/Background.webp");
