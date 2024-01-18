@@ -12,7 +12,7 @@ function App() {
       {/*<Header />*/}
       <Router>
         <Navigation />
-        <Header />
+        {/*<Header />*/}
 
         <Routes>
           <Route path="/Andrew-Meyer/" element={<Header />} />
