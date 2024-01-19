@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import AboutMe from "./components/AboutMe/AboutMe";
+import Ringing from "./components/Ringing/Ringing";
 import Homepage from "./components/Homepage/Homepage";
 import Navigation from "./components/Navigation";
 import Gallery from "./components/Gallery/Gallery";
@@ -14,7 +14,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/Andrew-Meyer/" element={<Homepage />} />
-          <Route path="/Andrew-Meyer/about" element={<AboutMe />} />
+          <Route path="/Andrew-Meyer/ringing" element={<Ringing />} />
           <Route path="/Andrew-Meyer/gallery" element={<Gallery />} />
         </Routes>
       </Router>

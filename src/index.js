@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./components/Homepage/Homepage";
-import AboutMe from "./components/AboutMe/AboutMe";
+import Ringing from "./components/Ringing/Ringing";
 
 import "./index.css";
 
