@@ -62,7 +62,7 @@ function PhotoCollage() {
         </div>
       </div>
 
-      <div className={"container-hor"}>
+      <div className={"container-ver"}>
         <img className={"image-hor"} src={kinsey} alt="ID Photo"></img>
         <div className={"text-overlay"}>
           A photo of Kinsey Meyer-Ridley on my shoulder
