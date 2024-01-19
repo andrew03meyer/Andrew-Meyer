@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.7fbc2c2c.css",
+    "main.css": "/Andrew-Meyer/static/css/main.0f532ad8.css",
     "main.js": "/Andrew-Meyer/static/js/main.6eb05fe5.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/Andrew-Meyer/static/media/kinsey2.74d133fc42989231f8c8.jpg",
@@ -22,12 +22,12 @@
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.7fbc2c2c.css.map": "/Andrew-Meyer/static/css/main.7fbc2c2c.css.map",
+    "main.0f532ad8.css.map": "/Andrew-Meyer/static/css/main.0f532ad8.css.map",
     "main.6eb05fe5.js.map": "/Andrew-Meyer/static/js/main.6eb05fe5.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fbc2c2c.css",
+    "static/css/main.0f532ad8.css",
     "static/js/main.6eb05fe5.js"
   ]
 }
