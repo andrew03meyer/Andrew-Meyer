@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.0256a9f8.css",
-    "main.js": "/Andrew-Meyer/static/js/main.af6d2b05.js",
+    "main.css": "/Andrew-Meyer/static/css/main.7fbc2c2c.css",
+    "main.js": "/Andrew-Meyer/static/js/main.6eb05fe5.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/Andrew-Meyer/static/media/kinsey2.74d133fc42989231f8c8.jpg",
+    "static/media/syr.jpg": "/Andrew-Meyer/static/media/syr.f16bd8a5450aeed9d181.jpg",
     "static/media/kinsey.jpg": "/Andrew-Meyer/static/media/kinsey.52c1fad1110a8c52f55a.jpg",
     "static/media/working.jpg": "/Andrew-Meyer/static/media/working.b8de97ac81ed976ce700.jpg",
     "static/media/homePhoto.jpg": "/Andrew-Meyer/static/media/homePhoto.713d013692aaf2452947.jpg",
@@ -21,12 +22,12 @@
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.0256a9f8.css.map": "/Andrew-Meyer/static/css/main.0256a9f8.css.map",
-    "main.af6d2b05.js.map": "/Andrew-Meyer/static/js/main.af6d2b05.js.map",
+    "main.7fbc2c2c.css.map": "/Andrew-Meyer/static/css/main.7fbc2c2c.css.map",
+    "main.6eb05fe5.js.map": "/Andrew-Meyer/static/js/main.6eb05fe5.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0256a9f8.css",
-    "static/js/main.af6d2b05.js"
+    "static/css/main.7fbc2c2c.css",
+    "static/js/main.6eb05fe5.js"
   ]
 }
