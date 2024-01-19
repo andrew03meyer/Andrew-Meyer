@@ -2,11 +2,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 40px;
-}
-
-.contents {
     display: flex;
-    /*flex-wrap: wrap;*/
     align-items: center;
 }
 
@@ -29,8 +25,8 @@
     margin: 1vw;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    box-shadow: 10px 10px 20px lightgrey;
 }
 
 h1, h2, h3 {
