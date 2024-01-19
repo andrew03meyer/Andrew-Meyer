@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Andrew-Meyer/static/css/main.a21c0e52.css",
-    "main.js": "/Andrew-Meyer/static/js/main.b5fa6415.js",
+    "main.css": "/Andrew-Meyer/static/css/main.0256a9f8.css",
+    "main.js": "/Andrew-Meyer/static/js/main.af6d2b05.js",
     "static/js/787.4ea4ad5e.chunk.js": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/Andrew-Meyer/static/media/kinsey2.74d133fc42989231f8c8.jpg",
     "static/media/kinsey.jpg": "/Andrew-Meyer/static/media/kinsey.52c1fad1110a8c52f55a.jpg",
@@ -21,12 +21,12 @@
     "static/media/github_logo.svg": "/Andrew-Meyer/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/Andrew-Meyer/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/Andrew-Meyer/index.html",
-    "main.a21c0e52.css.map": "/Andrew-Meyer/static/css/main.a21c0e52.css.map",
-    "main.b5fa6415.js.map": "/Andrew-Meyer/static/js/main.b5fa6415.js.map",
+    "main.0256a9f8.css.map": "/Andrew-Meyer/static/css/main.0256a9f8.css.map",
+    "main.af6d2b05.js.map": "/Andrew-Meyer/static/js/main.af6d2b05.js.map",
     "787.4ea4ad5e.chunk.js.map": "/Andrew-Meyer/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21c0e52.css",
-    "static/js/main.b5fa6415.js"
+    "static/css/main.0256a9f8.css",
+    "static/js/main.af6d2b05.js"
   ]
 }
