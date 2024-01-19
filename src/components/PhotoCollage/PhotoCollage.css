@@ -25,11 +25,13 @@
 }
 
 .image-hor:hover{
+    transition-duration: 1s;
     filter: brightness(0.2);
 }
 
 .image-ver:hover{
     filter: brightness(0.2);
+    transition-duration: 1s;
 }
 .text-overlay{
     position: absolute;
@@ -38,10 +40,11 @@
 
 .image-ver:hover  + .text-overlay {
     display: block;
-    color:whitesmoke;
+    color:lightgrey;
+    transition-duration: 1s;
 }
 
 .image-hor:hover  + .text-overlay{
     display: block;
-    color:whitesmoke;
+    color:lightgrey;
 }
