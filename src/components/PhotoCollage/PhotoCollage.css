@@ -1,19 +1,47 @@
 .container{
-    /*margin: 1%;*/
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-hor, .container-ver{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .image-hor{
+    display: flex;
+    position: relative;
     margin: 5px;
-    width:25%;
-    height: 25%;
+    max-width:45vw;
 }
 
 .image-ver {
+    position: relative;
+    display: flex;
     margin: 5px;
-    width: 20%;
-    height: 25%;
+    max-height: 45vh;
+}
+
+.image-hor:hover{
+    filter: brightness(0.2);
+}
+
+.image-ver:hover{
+    filter: brightness(0.2);
+}
+.text-overlay{
+    position: absolute;
+    display: none;
+}
+
+.image-ver:hover  + .text-overlay {
+    display: block;
+    color:whitesmoke;
+}
+
+.image-hor:hover  + .text-overlay{
+    display: block;
+    color:whitesmoke;
 }
