@@ -2,28 +2,20 @@ import React from "react";
 import "./Ringing.css";
 function Ringing() {
 
-  var xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "https://bb.ringingworld.co.uk/view.php?id=110081");
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      return (
-          <>
-            <p>
-              connection made
-            </p>
-          </>
-      );
-    }
-    return (
-        <p>next stage</p>
-    );
-  }
+    let url = "https://bb.ringingworld.co.uk/view.php?id=1209822";
 
-  return(
-      <p>
-        Couldnt be loaded
-      </p>
-  );
+    fetch(url, {method:"GET", headers: "Accept", "application/html"})
+        .then(response => response.text())
+        .then(xmlData => {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlData);
+            const xmlContent = xmlDoc.documentElement.outerHTML;
+
+            return(
+                <p>testing</p>
+            )
+        })
+        .catch(error => console.log("eeror"));
 }
 
 export default Ringing;
