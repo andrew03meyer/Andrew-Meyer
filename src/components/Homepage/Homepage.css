@@ -7,7 +7,7 @@
 }
 
 #container{
-    max-width: 35%;
+    max-width: 30vw;
     /*box-shadow: 10px 10px 50px 30px whitesmoke;*/
 }
 
@@ -23,21 +23,22 @@
 .main-content {
     /*max-width: 800px;*/
     margin: 1vw;
-    padding: 20px;
+    padding: 1vw;
     background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px lightgrey;
+    border-radius: 1vw;
+    box-shadow: 1vw 1vw 1vw lightgrey;
 }
 
 h1, h2, h3 {
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 0;
     color: #3498db;
+    font-size: 1.5vw;
 }
 
 p {
     /*padding-top: 0;*/
-    margin-top:5px;
+    margin-top:0.1vw;
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: 1vw;
