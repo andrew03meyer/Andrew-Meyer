@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Header from "./components/Homepage/Homepage";
+import Homepage from "./components/Homepage/Homepage";
 import Ringing from "./components/Ringing/Ringing";
 
 import "./index.css";

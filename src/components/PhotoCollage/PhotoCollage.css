@@ -21,7 +21,7 @@
     position: relative;
     display: flex;
     margin: 5px;
-    max-height: 45vh;
+    max-width: 50vh;
 }
 
 .image-hor:hover{
@@ -36,15 +36,17 @@
 .text-overlay{
     position: absolute;
     display: none;
+    user-select: none;
 }
 
-.image-ver:hover  + .text-overlay {
+.image-ver:hover + .text-overlay {
     display: block;
     color:lightgrey;
     transition-duration: 1s;
 }
 
 .image-hor:hover  + .text-overlay{
-    display: block;
+    display: inline-block;
     color:lightgrey;
+    user-select: none;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import homeImage from "../../assets/images/homePhoto.jpg";
 
-function Header() {
+function Homepage() {
   return (
     <>
       <div className={"profile"}>
@@ -55,4 +55,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Homepage;
