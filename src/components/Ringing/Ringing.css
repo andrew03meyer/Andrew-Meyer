@@ -13,22 +13,23 @@
     box-shadow: 10px 10px 20px lightgrey;
 }
 
-h1, h2, h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #3498db;
+.ringing-contents h1, h2, h3 {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    color: #cfc288;
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 
-p {
-    line-height: 1.6;
+.main-content-ringing p {
+    /*line-height: 1.6;*/
     font-size: 1vw;
 }
 
 .band-picture{
-    max-width: 40vw;
+    max-width:35vw;
     width: 100%;
     border-radius: 15px;
     box-shadow: 10px 10px 20px lightgrey;
+    margin: 1vh;
 }
