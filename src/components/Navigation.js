@@ -14,7 +14,9 @@ const Navigation = () => {
         <li>
           <img className="logo" src={AMlogo} alt="AM logo"></img>
         </li>
-        <li className="name">Andrew Meyer</li>
+        <li>
+          <Link to="/Andrew-Meyer/">Andrew Meyer</Link>
+        </li>
 
         <li>
           <Link to="/Andrew-Meyer/">Home</Link>
