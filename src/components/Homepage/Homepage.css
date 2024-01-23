@@ -6,6 +6,17 @@
     align-items: center;
 }
 
+@media only screen and (max-width:768px){
+    .profile {
+        flex-direction: column;
+    }
+
+    #container{
+        max-width: 90vw!important;
+        margin: 5vw;
+    }
+}
+
 #container{
     max-width: 30vw;
 }
@@ -31,7 +42,7 @@
     margin-top: 1vh;
     margin-bottom: 1vh;
     color: #cfc288;
-    font-size: 1.5vw;
+    font-size: 16px;
     display: inline-block;
 }
 
@@ -39,5 +50,5 @@
     margin-top:0.1vw;
     line-height: 1.6;
     margin-bottom: 15px;
-    font-size: 1.1vw;
+    font-size: 13px;
 }
