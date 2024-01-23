@@ -19,11 +19,7 @@ function Ringing() {
       <div className={"rule"}></div>
 
       <div className={"picture-and-text"}>
-        <img
-          className={"picture"}
-          src={syr}
-          alt={"Sussex Young Ringers"}
-        ></img>
+        <img className={"picture"} src={syr} alt={"Sussex Young Ringers"}></img>
 
         <div className={"rule"}></div>
 
@@ -82,11 +78,7 @@ function Ringing() {
             more experienced ringers.
           </p>
         </div>
-        <img
-            className={"picture"}
-            src={shipleyBells}
-            alt={"Shipley Picture"}
-        />
+        <img className={"picture"} src={shipleyBells} alt={"Shipley Picture"} />
       </div>
     </>
   );
