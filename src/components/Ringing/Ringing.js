@@ -5,12 +5,14 @@ function Ringing() {
   return (
     <>
       <div className={"ringing-contents"}>
-        <img
-          className={"band-picture"}
-          src={syr}
-          alt={"Sussex Young Ringers"}
-        ></img>
         <div>
+          <img
+              className={"band-picture"}
+              src={syr}
+              alt={"Sussex Young Ringers"}
+          ></img>
+          <p className={"main-content-ringing"}>a mongoose</p>
+        </div>
           <div className={"main-content-ringing"}>
             <h1>Introduction</h1>
             <p>
@@ -50,7 +52,6 @@ function Ringing() {
             </p>
           </div>
         </div>
-      </div>
     </>
   );
 }
