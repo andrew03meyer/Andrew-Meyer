@@ -1,35 +1,40 @@
-.ringing-contents{
+.picture-and-text{
     display: flex;
     align-items: flex-start;
-    margin: 1vh;
+    margin: 5vh;
 }
 
 .main-content-ringing {
     background-color: #fff;
     border-radius: 20px;
-    display: inline-block;
-    margin: 1vh;
+    display: block;
+    margin: 5vh;
     padding: 1vh;
     box-shadow: 10px 10px 20px lightgrey;
+    /*z-index: 10;*/
 }
 
-.ringing-contents h1, h2, h3 {
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
+.main-content-ringing h1, h2, h3 {
+    text-align: left;
+    margin: 2vh;
     color: #cfc288;
-    display: inline-block;
-    font-size: 1.3vw;
+    display: block;
+    font-size: 1.8vw;
 }
 
 .main-content-ringing p {
-    /*line-height: 1.6;*/
-    font-size: 1vw;
+    font-size: 1.2vw;
+    margin: 1vh
 }
 
 .band-picture{
-    max-width:35vw;
-    width: 100%;
+    max-width:40vw;
     border-radius: 15px;
     box-shadow: 10px 10px 20px lightgrey;
     margin: 1vh;
+}
+
+.rule {
+    border: #cfc288 solid 1px;
+    box-shadow: 0 0 200vh 5vh #c2b061;
 }

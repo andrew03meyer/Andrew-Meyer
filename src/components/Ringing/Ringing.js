@@ -1,28 +1,31 @@
 import React, { useEffect } from "react";
 import "./Ringing.css";
 import syr from "../../assets/images/syr.jpg";
+import shipleyBells from "../../assets/images/shipley-bells.jpg";
 function Ringing() {
   return (
-    <>
-      <div className={"ringing-contents"}>
-        <div>
+      <>
+        <div className={"main-content-ringing"}>
+          <h1>Introduction</h1>
+          <p>
+            Many don't know the basics of ringing, and I think there is a good
+            reason for that. It's not got any similarities to anything else. I
+            find it a very hard task to define how to ring "simply". But, I do
+            think it is very rewarding and suggest, given the chance, anyone
+            should at least try it once!
+          </p>
+        </div>
+
+        <div className={"rule"}></div>
+
+        <div className={"picture-and-text"}>
           <img
               className={"band-picture"}
               src={syr}
               alt={"Sussex Young Ringers"}
           ></img>
-          <p className={"main-content-ringing"}>a mongoose</p>
-        </div>
-          <div className={"main-content-ringing"}>
-            <h1>Introduction</h1>
-            <p>
-              Many don't know the basics of ringing, and I think there is a good
-              reason for that. It's not got any similarities to anything else. I
-              find it a very hard task to define how to ring "simply". But, I do
-              think it is very rewarding and suggest, given the chance, anyone
-              should at least try it once!
-            </p>
-          </div>
+
+          <div className={"rule"}></div>
 
           <div className={"main-content-ringing"}>
             <h1>My Ringing Career</h1>
@@ -52,7 +55,37 @@ function Ringing() {
             </p>
           </div>
         </div>
-    </>
+
+        <div className={"rule"}></div>
+
+        <div className={"picture-and-text"}>
+          <img className={"band-picture"} src={shipleyBells} alt={"Shipley Picture"} />
+          <div className={"main-content-ringing"}>
+            <h1>Steeplekeeping</h1>
+            <p>
+              I have also taken a strong interest in steeplekeeping, mainly at
+              my local towers and St Mary le Bow (London). Soon to be proposed
+              for steeple keeper at Bow.
+            </p>
+            <p>
+              Recently, I have been lucky enough to get my hands on a Bagley
+              Meter (to measure clapper and swing times of bells) and have
+              been applying it to as many towers as possible. I've spent
+              years tinkering with bells and have been developing my skills
+              the whole time.
+            </p>
+
+            <h1>Teaching</h1>
+            <p>
+              I started teaching people to ring more recently. I have completed
+              ART's (Association of Ringing Teachers) module 1, twice. Since then,
+              I have taken up teaching at my local tower (St Stephen's). And am
+              currently teaching a number of new learners, as well as mentoring
+              more experienced ringers.
+            </p>
+          </div>
+        </div>
+      </>
   );
 }
 
