@@ -8,7 +8,6 @@
 
 #container{
     max-width: 30vw;
-    /*box-shadow: 10px 10px 50px 30px whitesmoke;*/
 }
 
 #home_photo {
@@ -21,11 +20,10 @@
 }
 
 .main-content {
-    /*max-width: 800px;*/
     margin: 1vw;
     padding: 1vw;
-    background-color: #fff;
     border-radius: 1vw;
+    filter: brightness(80%);
     box-shadow: 1vw 1vw 1vw lightgrey;
 }
 
@@ -38,7 +36,6 @@
 }
 
 .main-content p {
-    /*padding-top: 0;*/
     margin-top:0.1vw;
     line-height: 1.6;
     margin-bottom: 15px;
