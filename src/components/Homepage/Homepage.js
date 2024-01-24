@@ -48,7 +48,7 @@ function Homepage() {
             <p>
               I'm currently looking for a year in industry (in the Computer
               Science area) and am open to any offers. Ideally, I would start
-              sometime June-July 2023 and work till September 2024. If you have
+              sometime June-July 2024 and work till September 2025. If you have
               any opportunities that you think I may be interested in please do
               contact me!
             </p>
