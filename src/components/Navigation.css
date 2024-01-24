@@ -32,6 +32,11 @@ li.socials{
     padding:0;
 }
 
+li.socials:hover{
+    filter: brightness(20%);
+    transition-duration: 1s;
+}
+
 li a {
     display: block;
     color: white;
