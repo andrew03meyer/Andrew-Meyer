@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/ringing" element={<Ringing />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/Andrew-Meyer/" element={<Homepage />} />
+          <Route path="/Andrew-Meyer/ringing" element={<Ringing />} />
+          <Route path="/Andrew-Meyer/gallery" element={<Gallery />} />
         </Routes>
       </Router>
     </div>
