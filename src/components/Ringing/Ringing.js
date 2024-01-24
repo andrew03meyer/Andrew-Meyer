@@ -8,13 +8,13 @@ function Ringing() {
       <div className={"main-content-ringing"}>
         <h1>Introduction</h1>
         <p>
-          Bell ringing is something that has not got a wide public image.
-          It is a very old hobby that pre-dates the 1st century. As mentioned
-          before, I have been ringing, pretty much, all my life and I really
-          enjoy not just the physical aspect, but the social connections
-          one gains from it. Whether it's ringing for over 3 hours straight,
-          having a good pub session, or dressing up for a multi-course meal,
-          ringing has a different taste for all.
+          Bell ringing is something that has not got a wide public image. It is
+          a very old hobby that pre-dates the 1st century. As mentioned before,
+          I have been ringing, pretty much, all my life and I really enjoy not
+          just the physical aspect, but the social connections one gains from
+          it. Whether it's ringing for over 3 hours straight, having a good pub
+          session, or dressing up for a multi-course meal, ringing has a
+          different taste for all.
         </p>
       </div>
 
