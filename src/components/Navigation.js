@@ -15,19 +15,19 @@ const Navigation = () => {
           <img className="logo" src={AMlogo} alt="AM logo"></img>
         </li>
         <li>
-          <Link to="/" className={"name"}>
+          <Link to="/Andrew-Meyer/" className={"name"}>
             Andrew Meyer
           </Link>
         </li>
 
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/Andrew-Meyer/">Home</Link>
         </li>
         <li>
-          <Link to="/ringing">Ringing</Link>
+          <Link to="/Andrew-Meyer/ringing">Ringing</Link>
         </li>
         <li>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/Andrew-Meyer/gallery">Gallery</Link>
         </li>
 
         <li className={"socials"} style={{ marginLeft: "auto" }}>
