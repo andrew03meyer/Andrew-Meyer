@@ -16,14 +16,14 @@
 
 .picture-and-text{
     display: flex;
-    align-items: flex-start;
-    margin: 5vh;
+    align-items: center;
+    margin: 2vh;
 }
 
 .main-content-ringing {
     border-radius: 20px;
     display: block;
-    margin: 5vh;
+    margin: 2vh;
     padding: 1vh;
     box-shadow: 10px 10px 20px lightgrey;
     filter: brightness(80%);
@@ -34,12 +34,12 @@
     margin: 2vh;
     color: #cfc288;
     display: block;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .main-content-ringing p {
-    font-size: 13px;
-    margin: 1vh
+    font-size: 1.2rem;
+    /*margin: 1vh*/
 }
 
 .picture{

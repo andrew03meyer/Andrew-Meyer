@@ -56,9 +56,9 @@ function Ringing() {
 
       <div className={"picture-and-text"}>
         <div className={"main-content-ringing"}>
-          <h1>Steeplekeeping</h1>
+          <h1>Steeple Keeping</h1>
           <p>
-            I have also taken a strong interest in steeplekeeping, mainly at my
+            I have also taken a strong interest in steeple keeping, mainly at my
             local towers and St Mary le Bow (London). Soon to be proposed for
             steeple keeper at Bow.
           </p>
