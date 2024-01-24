@@ -21,13 +21,13 @@ const Navigation = () => {
         </li>
 
         <li>
-          <Link to="/Andrew-Meyer/">Home</Link>
+          <Link to="">Home</Link>
         </li>
         <li>
-          <Link to="/Andrew-Meyer/ringing">Ringing</Link>
+          <Link to="/ringing">Ringing</Link>
         </li>
         <li>
-          <Link to="/Andrew-Meyer/gallery">Gallery</Link>
+          <Link to="/gallery">Gallery</Link>
         </li>
 
         <li className={"socials"} style={{ marginLeft: "auto" }}>
