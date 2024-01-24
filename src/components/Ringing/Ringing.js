@@ -8,11 +8,13 @@ function Ringing() {
       <div className={"main-content-ringing"}>
         <h1>Introduction</h1>
         <p>
-          Many don't know the basics of ringing, and I think there is a good
-          reason for that. It's not got any similarities to anything else. I
-          find it a very hard task to define how to ring "simply". But, I do
-          think it is very rewarding and suggest, given the chance, anyone
-          should at least try it once!
+          Bell ringing is something that has not got a wide public image.
+          It is a very old hobby that pre-dates the 1st century. As mentioned
+          before, I have been ringing, pretty much, all my life and I really
+          enjoy not just the physical aspect, but the social connections
+          one gains from it. Whether it's ringing for over 3 hours straight,
+          having a good pub session, or dressing up for a multi-course meal,
+          ringing has a different taste for all.
         </p>
       </div>
 
@@ -32,13 +34,13 @@ function Ringing() {
             time.
           </p>
           <p>
-            I've more recently taken to teaching. It is something i really enjoy
-            to do, and i don't think that will ever change. I also feel that the
+            I've more recently taken to teaching. It is something I really enjoy
+            to do, and I don't think that will ever change. I also feel that the
             teaching scene could do with some work and therefore needs people
             like myself, who have an interest, to go and do it!
           </p>
           <p>
-            I have also judge a number of striking competitions, which I enjoy
+            I have also judged a number of striking competitions, which I enjoy
             doing. Including: multiple local competitions, the Tewkesbury
             Shield, and the London 12 bell. And I'm hoping to judge the RWNYC
             and 12 bell at some point in the future!
