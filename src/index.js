@@ -7,7 +7,7 @@ import Homepage from "./components/Homepage/Homepage";
 import Ringing from "./components/Ringing/Ringing";
 
 import "./index.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/ringing" element={<Ringing />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
