@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import "./Ringing.css";
+import Navbar from '../Navigation'
 import syr from "../../assets/images/syr.jpg";
 import shipleyBells from "../../assets/images/shipley-bells.jpg";
 function Ringing() {
   return (
     <>
+      <Navbar />
       <div className={"main-content-ringing"}>
         <h1>Introduction</h1>
         <p>

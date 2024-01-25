@@ -10,14 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navigation />
-        <Routes>
-          <Route path="" element={<Homepage />} />
-          <Route path="/ringing" element={<Ringing />} />
-          <Route path="/gallery" element={<Gallery />} />
-        </Routes>
-      </Router>
+      <Navigation />
     </div>
   );
 }

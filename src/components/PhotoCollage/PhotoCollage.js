@@ -10,9 +10,12 @@ import pub from "../../assets/images/pub.jpg";
 import kinsey from "../../assets/images/kinsey.jpg";
 import kinsey2 from "../../assets/images/kinsey2.jpg";
 import React from "react";
+import Navbar from '../Navigation'
 
 function PhotoCollage() {
   return (
+      <>
+      <Navbar />
     <div className={"container"}>
       <div className={"container-img"}>
         <img className={"image-ver"} src={PfP} alt="ID Photo"></img>
@@ -76,6 +79,7 @@ function PhotoCollage() {
         </div>
       </div>
     </div>
+  </>
   );
 }
 

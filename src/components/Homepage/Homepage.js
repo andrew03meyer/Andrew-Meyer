@@ -1,10 +1,12 @@
 import React from "react";
 import "./Homepage.css";
 import homeImage from "../../assets/images/homePhoto.jpg";
+import Navbar from '../Navigation'
 
 function Homepage() {
   return (
     <>
+      <Navbar />
       <div className={"profile"}>
         <div id={"container"}>
           <img id="home_photo" src={homeImage} alt={"Photo of me"}></img>
