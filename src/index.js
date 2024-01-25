@@ -20,8 +20,6 @@ root.render(
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
-
-    {/*<App />*/}
   </React.StrictMode>,
 );
 
