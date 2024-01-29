@@ -29,11 +29,8 @@ const Navigation = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
-        <li>
-          <Link to="/background">Background</Link>
-        </li>
 
-        <li className={"socials"} style={{marginLeft: "auto"}}>
+        <li className={"socials"} style={{ marginLeft: "auto" }}>
           <a href="https://github.com/andrew03meyer" target={"_blank"}>
             <img className="logo" src={GitHubLogo} alt="github"></img>
           </a>
@@ -41,8 +38,8 @@ const Navigation = () => {
 
         <li className={"socials"}>
           <a
-              href="https://www.linkedin.com/in/andrew-meyer-200103266/"
-              target={"_blank"}
+            href="https://www.linkedin.com/in/andrew-meyer-200103266/"
+            target={"_blank"}
           >
             <img className="logo" src={LinkedinLogo} alt="linkedin"></img>
           </a>

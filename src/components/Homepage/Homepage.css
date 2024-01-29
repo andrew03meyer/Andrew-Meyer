@@ -4,6 +4,8 @@
     margin-top: 1vh;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 @media only screen and (max-width:768px){
@@ -19,6 +21,7 @@
 
 #container{
     max-width: 30vw;
+    /*z-index: 1;*/
 }
 
 #home_photo {
@@ -34,8 +37,9 @@
     margin: 1vw;
     padding: 1vw;
     border-radius: 1vw;
-    filter: brightness(80%);
-    box-shadow: 1vw 1vw 1vw lightgrey;
+    filter: brightness(120%);
+    box-shadow: 1vw 1vw 1vw #111;
+    background-color: #000;
 }
 
 .profile h1, h2, h3 {
@@ -51,6 +55,7 @@
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .rule {

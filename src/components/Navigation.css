@@ -14,7 +14,9 @@ ul {
     margin: 0;
     padding-left: 0;
     align-items: center;
-    background-color: #333;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
 }
 
 li {
@@ -24,17 +26,20 @@ li {
     align-items: center;
     color: white;
     margin: max(10px, 0.5vw);
+    /*z-index: 1;*/
 }
 
 li.socials{
     float: right;
     margin:0;
     padding:0;
+    /*z-index: 1;*/
 }
 
 li.socials:hover{
     filter: brightness(20%);
     transition-duration: 1s;
+    /*z-index: 1;*/
 }
 
 li a {
@@ -45,10 +50,12 @@ li a {
     text-decoration: none;
     /*margin: max(10px, 0.2vw);*/
     border-radius: 15px;
+    /*z-index: 1;*/
 }
 
 li a:hover:not(.active) {
     background-color: #111;
+    /*z-index: 1;*/
 }
 
 /*.active {*/
@@ -62,11 +69,11 @@ li a:hover:not(.active) {
     background-color: white;
     border: white 1px solid;
     border-radius: 50%;
+    /*z-index: 1;*/
 }
 
 .name{
     margin-right: 1vw;
     margin-left: 0.5vw;
     padding-right: 5px;
-    /*border: white 1px solid;*/
 }

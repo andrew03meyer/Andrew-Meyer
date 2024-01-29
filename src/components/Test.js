@@ -1,63 +1,56 @@
-// ParticleComponent.js
-import React, { useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import { tsParticles } from "@tsparticles/engine";
+import { loadAll } from "@tsparticles/all";
 
-const ParticleComponent = () => {
-    const [init, setInit] = useState(false);
-    const [particlePosition, setParticlePosition] = useState({ x: 50, y: 50 });
+async function loadParticles(options) {
+    await loadAll(tsParticles);
 
-    useEffect(() => {
-        const initializeParticles = async () => {
-            await initParticlesEngine(async (engine) => {
-                await loadSlim(engine);
-            });
-            setInit(true);
-        };
+    await tsParticles.load({ id: "tsparticles", options });
+}
 
-        initializeParticles();
-    }, []);
-
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
-
-    const dynamicParticles = [
-        {
-            position: {
-                x: particlePosition.x,
-                y: particlePosition.y,
-            },
-            color: {
-                value: "#ffffff",
-            },
-            size: {
-                value: 20,
-            },
-            shape: {
-                type: "circle",
-            },
-            move: {
-                enable: true,
-                speed: 2,
-            },
+const configs = {
+    particles: {
+        number: {
+            value: 100,
         },
-    ];
+        color: {
+            value: "#fff",
+        },
 
-    return (
-        <Particles
-            id="tsparticles"
-            particlesLoaded={particlesLoaded}
-            particles={dynamicParticles}
-            options={{
-                background: {
-                    color: {
-                        value: "#0d47a1",
-                    },
-                },
-            }}
-        />
-    );
+        links: {
+            enable: true,
+            distance: 200,
+            color: "#ffffff",
+            opacity: 0.5,
+            width: 1,
+        },
+        shape: {
+            type: "square",
+        },
+        opacity: {
+            value: 0.7,
+        },
+        size: {
+            value: {
+                min: 2,
+                max: 5,
+            }
+        },
+        move: {
+            enable: true,
+            speed: 1.5,
+        },
+    },
+    background: {
+        color: "#000",
+    },
 };
 
-export default ParticleComponent;
+loadParticles(configs);
+
+function Render(){
+    return(
+        <div id={"tsparticles"} style={{zIndex: 0}}></div>
+    )
+}
+
+export default Render;

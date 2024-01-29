@@ -2,12 +2,14 @@ import React from "react";
 import "./Homepage.css";
 import homeImage from "../../assets/images/homePhoto.jpg";
 import Navbar from "../Navigation";
+import Test from "../Test";
 
 function Homepage() {
   return (
     <>
+      <Test />
       <Navbar />
-      <div className={"profile"}>
+      <div className={"profile"} style={{ zIndex: "1" }}>
         <div id={"container"}>
           <img id="home_photo" src={homeImage} alt={"Photo of me"}></img>
         </div>
@@ -22,7 +24,7 @@ function Homepage() {
             </p>
           </div>
 
-          <div className={"rule"}></div>
+          {/*<div className={"rule"}></div>*/}
 
           <div className={"main-content"}>
             <h1>A bit about me</h1>
@@ -43,7 +45,7 @@ function Homepage() {
             </p>
           </div>
 
-          <div className={"rule"}></div>
+          {/*<div className={"rule"}></div>*/}
 
           <div className={"main-content"}>
             <h1>Opportunities:</h1>
