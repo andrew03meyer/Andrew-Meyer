@@ -10,7 +10,7 @@ import pub from "../../assets/images/pub.jpg";
 import kinsey from "../../assets/images/kinsey.jpg";
 import kinsey2 from "../../assets/images/kinsey2.jpg";
 import React from "react";
-import Navbar from "../Navigation";
+import Navbar from "../Navigation/Navigation";
 
 function PhotoCollage() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Homepage.css";
 import homeImage from "../../assets/images/homePhoto.jpg";
-import Navbar from "../Navigation";
-import Test from "../Test";
+import Navbar from "../Navigation/Navigation";
+import Test from "../Background/Background";
 
 function Homepage() {
   return (

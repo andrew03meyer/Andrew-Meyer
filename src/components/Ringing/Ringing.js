@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Ringing.css";
-import Navbar from "../Navigation";
+import Navbar from "../Navigation/Navigation";
 import syr from "../../assets/images/syr.jpg";
 import shipleyBells from "../../assets/images/shipley-bells.jpg";
 function Ringing() {
@@ -46,10 +46,9 @@ function Ringing() {
             and 12 bell at some point in the future!
           </p>
           <p>
-            As seen in the picture on the right, I have been part of the Sussex
-            young ringers band (for multiple years). My last being Worcester in
-            2021. I was conductor for the band in 2021, and we managed to place
-            2nd overall.
+            As seen in the picture, I have been part of the Sussex young ringers
+            band (for multiple years). My last being Worcester in 2021. I was
+            conductor for the band in 2021, and we managed to place 2nd overall.
           </p>
         </div>
       </div>

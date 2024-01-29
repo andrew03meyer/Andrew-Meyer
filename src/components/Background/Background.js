@@ -1,90 +1,56 @@
-import React from "react";
-import Particles from "@tsparticles/react";
+//Variation of code from: https://codepen.io/matteobruni/pen/GReWvZd
 
-const Background = () => {
-  return (
-    <Particles
-      id="tsparticles"
-      options={{
-        background: {
-          color: {
-            value: "#ffffff",
-          },
-        },
-        fpsLimit: 60,
-        interactivity: {
-          detectsOn: "canvas",
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
-            },
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#000000",
-          },
-          links: {
-            color: "#000000",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: "bounce",
-            random: false,
-            speed: 6,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              value_area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 5,
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-  );
+import { tsParticles } from "@tsparticles/engine";
+import { loadAll } from "@tsparticles/all";
+
+async function loadParticles(options) {
+  await loadAll(tsParticles);
+
+  await tsParticles.load({ id: "tsparticles", options });
+}
+
+const configs = {
+  particles: {
+    number: {
+      value: 100,
+    },
+    color: {
+      value: "#fff",
+    },
+
+    links: {
+      enable: true,
+      distance: 200,
+      color: "#ffffff",
+      opacity: 0.5,
+      width: 1,
+    },
+    shape: {
+      type: "square",
+    },
+    opacity: {
+      value: 0.7,
+    },
+    size: {
+      value: {
+        min: 2,
+        max: 5,
+      },
+    },
+    move: {
+      enable: true,
+      speed: 1.5,
+    },
+  },
+  background: {
+    color: "#000",
+  },
 };
 
-export default Background;
+loadParticles(configs);
+
+function Render() {
+  return <div id={"tsparticles"} style={{ zIndex: 0 }}></div>;
+}
+
+export default Render;
