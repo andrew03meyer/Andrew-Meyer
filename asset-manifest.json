@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b23efc6.css",
-    "main.js": "/static/js/main.8166ee34.js",
+    "main.css": "/static/css/main.7557dc80.css",
+    "main.js": "/static/js/main.a27cb0fe.js",
     "static/js/787.4ea4ad5e.chunk.js": "/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/static/media/kinsey2.74d133fc42989231f8c8.jpg",
     "static/media/shipley-bells.jpg": "/static/media/shipley-bells.fc4b2e3b4942ff462b3b.jpg",
@@ -19,16 +19,17 @@
     "static/media/canoe.jpg": "/static/media/canoe.d2222a4ba1e701ab0c8c.jpg",
     "static/media/instagram_logo.webp": "/static/media/instagram_logo.1d6d0317700c4f0c95b7.webp",
     "static/media/Background.webp": "/static/media/Background.e56c0b7e5393c28afb92.webp",
+    "static/media/CV.docx": "/static/media/CV.10b5caa5483341be45b8.docx",
     "static/media/linkedin_logo.webp": "/static/media/linkedin_logo.69c088872ac91555e953.webp",
     "static/media/github_logo.svg": "/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/index.html",
-    "main.5b23efc6.css.map": "/static/css/main.5b23efc6.css.map",
-    "main.8166ee34.js.map": "/static/js/main.8166ee34.js.map",
+    "main.7557dc80.css.map": "/static/css/main.7557dc80.css.map",
+    "main.a27cb0fe.js.map": "/static/js/main.a27cb0fe.js.map",
     "787.4ea4ad5e.chunk.js.map": "/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b23efc6.css",
-    "static/js/main.8166ee34.js"
+    "static/css/main.7557dc80.css",
+    "static/js/main.a27cb0fe.js"
   ]
 }
