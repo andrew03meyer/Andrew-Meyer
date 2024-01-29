@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e11a101.css",
-    "main.js": "/static/js/main.b1331a47.js",
+    "main.css": "/static/css/main.5b23efc6.css",
+    "main.js": "/static/js/main.8166ee34.js",
     "static/js/787.4ea4ad5e.chunk.js": "/static/js/787.4ea4ad5e.chunk.js",
     "static/media/kinsey2.jpg": "/static/media/kinsey2.74d133fc42989231f8c8.jpg",
     "static/media/shipley-bells.jpg": "/static/media/shipley-bells.fc4b2e3b4942ff462b3b.jpg",
@@ -23,12 +23,12 @@
     "static/media/github_logo.svg": "/static/media/github_logo.4dcb5b69055fca16836cbc2669706009.svg",
     "static/media/Facebook_logo.svg": "/static/media/Facebook_logo.f0391d69645c7323017248ba6ecd7fa8.svg",
     "index.html": "/index.html",
-    "main.3e11a101.css.map": "/static/css/main.3e11a101.css.map",
-    "main.b1331a47.js.map": "/static/js/main.b1331a47.js.map",
+    "main.5b23efc6.css.map": "/static/css/main.5b23efc6.css.map",
+    "main.8166ee34.js.map": "/static/js/main.8166ee34.js.map",
     "787.4ea4ad5e.chunk.js.map": "/static/js/787.4ea4ad5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e11a101.css",
-    "static/js/main.b1331a47.js"
+    "static/css/main.5b23efc6.css",
+    "static/js/main.8166ee34.js"
   ]
 }
