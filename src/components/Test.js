@@ -1,3 +1,5 @@
+//Variation of code from: https://codepen.io/matteobruni/pen/GReWvZd
+
 import { tsParticles } from "@tsparticles/engine";
 import { loadAll } from "@tsparticles/all";
 
