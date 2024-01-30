@@ -9,6 +9,7 @@ import Ringing from "./components/Ringing/Ringing";
 import "./index.css";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
+import CV from "./components/CV/CV";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/" element={<Homepage />} />
         <Route path="/ringing" element={<Ringing />} />
         <Route path="/gallery" element={<Gallery />} />
+        {/*<Route path="/cv" element={<CV />} />*/}
       </Routes>
     </Router>
   </React.StrictMode>,

@@ -20,7 +20,7 @@
     margin: 2vh;
     position: relative;
     z-index: 1;
-    background-color: #111;
+    /*background-color: rgba(0,0,0, 0.5);*/
     color: #fff;
 }
 
@@ -30,8 +30,8 @@
     margin: 2vh;
     padding: 1vh;
     box-shadow: 10px 10px 20px #111;
-    background-color: #000;
-    /*filter: brightness(120%);*/
+    /*background-color: #000;*/
+    background-color: rgba(0,0,0, 0.5);
     position: relative;
     z-index: 1;
 }
@@ -53,7 +53,7 @@
 .picture{
     max-width:40vw;
     border-radius: 15px;
-    box-shadow: 10px 10px 20px lightgrey;
+    box-shadow: 10px 10px 20px #111;
     /*margin: 1vh;*/
 }
 

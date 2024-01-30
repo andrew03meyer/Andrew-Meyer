@@ -1,5 +1,4 @@
-//Variation of code from: https://codepen.io/matteobruni/pen/GReWvZd
-
+import React, { useEffect } from "react";
 import { tsParticles } from "@tsparticles/engine";
 import { loadAll } from "@tsparticles/all";
 
@@ -17,7 +16,6 @@ const configs = {
     color: {
       value: "#fff",
     },
-
     links: {
       enable: true,
       distance: 200,
@@ -39,17 +37,32 @@ const configs = {
     },
     move: {
       enable: true,
-      speed: 1.5,
+      speed: 0.3,
+    },
+    onHover: {
+      mode: "push",
     },
   },
+  // interactivity: {
+  //   events: {
+  //     onHover: {
+  //       enable: true,
+  //       mode: "repulse",
+  //       size: 20,
+  //     },
+  //   },
+  // },
+
   background: {
     color: "#000",
   },
 };
 
-loadParticles(configs);
-
 function Render() {
+  useEffect(() => {
+    loadParticles(configs);
+  }, []);
+
   return <div id={"tsparticles"} style={{ zIndex: 0 }}></div>;
 }
 

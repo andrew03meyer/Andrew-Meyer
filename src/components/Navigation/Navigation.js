@@ -35,6 +35,9 @@ const Navigation = () => {
             CV
           </a>
         </li>
+        {/*<li>*/}
+        {/*  <Link to="/cv">CV View</Link>*/}
+        {/*</li>*/}
 
         <li className={"socials"} style={{ marginLeft: "auto" }}>
           <a href="https://github.com/andrew03meyer" target={"_blank"}>

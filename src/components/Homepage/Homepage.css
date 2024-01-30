@@ -1,3 +1,23 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background: #444;
+}
+
+::-webkit-scrollbar-track {
+    background: #222;
+    /*border-radius: 15px;*/
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 15px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
 .profile{
     margin-left: 2vw;
     margin-right: 2vw;
@@ -39,8 +59,10 @@
     border-radius: 1vw;
     filter: brightness(120%);
     box-shadow: 1vw 1vw 1vw #111;
-    background-color: #000;
+    /*background-color: #000;*/
+    background-color: rgba(0,0,0, 0.5);
 }
+
 
 .profile h1, h2, h3 {
     margin-top: 1vh;
