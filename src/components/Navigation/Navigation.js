@@ -6,6 +6,7 @@ import GitHubLogo from "../../assets/images/github_logo.svg";
 import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
 import InstagramLogo from "../../assets/images/instagram_logo.webp";
+import Lightmode from "../LightMode Button/Lightmode";
 
 const Navigation = () => {
   return (
@@ -28,6 +29,9 @@ const Navigation = () => {
         </li>
         <li>
           <Link to="/gallery">Gallery</Link>
+        </li>
+        <li>
+          <Lightmode />
         </li>
         {/*<li>*/}
         {/*  <a href={CV} download={encodeURIComponent("CV.docx")}>*/}
