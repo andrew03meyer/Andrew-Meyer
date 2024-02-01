@@ -6,7 +6,6 @@ import GitHubLogo from "../../assets/images/github_logo.svg";
 import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
 import InstagramLogo from "../../assets/images/instagram_logo.webp";
-import CV from "../../assets/CV.docx";
 
 const Navigation = () => {
   return (
@@ -30,14 +29,14 @@ const Navigation = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
-        <li>
-          <a href={CV} download={encodeURIComponent("CV.docx")}>
-            CV
-          </a>
-        </li>
         {/*<li>*/}
-        {/*  <Link to="/cv">CV View</Link>*/}
+        {/*  <a href={CV} download={encodeURIComponent("CV.docx")}>*/}
+        {/*    CV*/}
+        {/*  </a>*/}
         {/*</li>*/}
+        <li>
+          <Link to="/cv">CV</Link>
+        </li>
 
         <li className={"socials"} style={{ marginLeft: "auto" }}>
           <a href="https://github.com/andrew03meyer" target={"_blank"}>
