@@ -7,7 +7,7 @@ import Background from "../Background/Background";
 function Ringing() {
   return (
     <>
-      <Background />
+      {/*<Background />*/}
       <Navbar />
       <div className={"main-content-ringing"}>
         <h1>Introduction</h1>

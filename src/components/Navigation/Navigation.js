@@ -13,6 +13,9 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
+          <Lightmode/>
+        </li>
+        <li>
           <img className="logo" src={AMlogo} alt="AM logo"></img>
         </li>
         <li>
@@ -30,9 +33,6 @@ const Navigation = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
-        <li>
-          <Lightmode />
-        </li>
         {/*<li>*/}
         {/*  <a href={CV} download={encodeURIComponent("CV.docx")}>*/}
         {/*    CV*/}
@@ -42,7 +42,7 @@ const Navigation = () => {
           <Link to="/cv">CV</Link>
         </li>
 
-        <li className={"socials"} style={{ marginLeft: "auto" }}>
+        <li className={"socials"} style={{marginLeft: "auto"}}>
           <a href="https://github.com/andrew03meyer" target={"_blank"}>
             <img className="logo" src={GitHubLogo} alt="github"></img>
           </a>
@@ -50,8 +50,8 @@ const Navigation = () => {
 
         <li className={"socials"}>
           <a
-            href="https://www.linkedin.com/in/andrew-meyer-200103266/"
-            target={"_blank"}
+              href="https://www.linkedin.com/in/andrew-meyer-200103266/"
+              target={"_blank"}
           >
             <img className="logo" src={LinkedinLogo} alt="linkedin"></img>
           </a>

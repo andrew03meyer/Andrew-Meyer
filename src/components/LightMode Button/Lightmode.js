@@ -3,7 +3,7 @@ import './Lightmode.css';
 import Background from '../Background/Background';
 
 function Lightmode() {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     const modeChange = () => {
         setIsDarkMode(!isDarkMode);

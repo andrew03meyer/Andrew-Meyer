@@ -16,7 +16,7 @@ import Background from "../Background/Background";
 function PhotoCollage() {
   return (
     <>
-      <Background />
+      {/*<Background />*/}
       <Navbar />
       <h1>My Gallery:</h1>
       <div className={"container"}>
