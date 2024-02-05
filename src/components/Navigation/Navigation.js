@@ -6,11 +6,15 @@ import GitHubLogo from "../../assets/images/github_logo.svg";
 import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
 import InstagramLogo from "../../assets/images/instagram_logo.webp";
+import Lightmode from "../LightMode Button/Lightmode";
 
 const Navigation = () => {
   return (
     <nav>
       <ul>
+        <li>
+          <Lightmode />
+        </li>
         <li>
           <img className="logo" src={AMlogo} alt="AM logo"></img>
         </li>
