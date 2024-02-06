@@ -19,7 +19,7 @@ function Lightmode() {
         Change mode
       </div>
       {/* {isDarkMode && <Background />} */}
-      <Background mode={isDarkMode}/>
+      <Background mode={isDarkMode} />
     </>
   );
 }

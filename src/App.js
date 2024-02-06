@@ -13,17 +13,16 @@ import CV from "./components/CV/CV";
 function App() {
   return (
     <div className="App">
-
-        <Router>
+      <Router>
         <Background />
-        <Navbar />      
+        <Navbar />
         <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/ringing" element={<Ringing />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/cv" element={<CV />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/ringing" element={<Ringing />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/cv" element={<CV />} />
         </Routes>
-        </Router>
+      </Router>
     </div>
   );
 }
