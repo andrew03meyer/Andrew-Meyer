@@ -20,8 +20,6 @@ function Homepage() {
             </p>
           </div>
 
-          {/*<div className={"rule"}></div>*/}
-
           <div className={"main-content"}>
             <h1>A bit about me</h1>
             <p>
@@ -40,8 +38,6 @@ function Homepage() {
               future!
             </p>
           </div>
-
-          {/*<div className={"rule"}></div>*/}
 
           <div className={"main-content"}>
             <h1>Opportunities:</h1>

@@ -2,68 +2,128 @@ import React, { useEffect } from "react";
 import { tsParticles } from "@tsparticles/engine";
 import { loadAll } from "@tsparticles/all";
 
-async function loadParticles(options) {
-  await loadAll(tsParticles);
+const getConfig = (isDarkMode) => {
+  if (isDarkMode) {
+    return {
+      particles: {
+        number: {
+          value: 100,
+        },
+        color: {
+          value: "#fff",
+        },
+        links: {
+          enable: true,
+          distance: 200,
+          color: "#ffffff",
+          opacity: 0.5,
+          width: 1,
+        },
+        shape: {
+          type: "square",
+        },
+        opacity: {
+          value: 0.7,
+        },
+        size: {
+          value: {
+            min: 2,
+            max: 5,
+          },
+        },
+        move: {
+          enable: true,
+          speed: 0.3,
+        },
+        onHover: {
+          mode: "push",
+        },
+      },
+      background: {
+        color: "#000",
+      },
+    };
+  }
 
-  await tsParticles.load({ id: "tsparticles", options });
+    return {
+      particles: {
+        number: {
+          value: 100,
+        },
+        color: {
+          value: "#000",
+        },
+        links: {
+          enable: true,
+          distance: 200,
+          color: "#000000",
+          opacity: 0.5,
+          width: 1,
+        },
+        shape: {
+          type: "square",
+        },
+        opacity: {
+          value: 0.7,
+        },
+        size: {
+          value: {
+            min: 2,
+            max: 5,
+          },
+        },
+        move: {
+          enable: true,
+          speed: 0.3,
+        },
+        onHover: {
+          mode: "push",
+        },
+      },
+      background: {
+        color: "#fff",
+      },
+    };
+  
 }
 
-const configs = {
-  particles: {
-    number: {
-      value: 100,
-    },
-    color: {
-      value: "#fff",
-    },
-    links: {
-      enable: true,
-      distance: 200,
-      color: "#ffffff",
-      opacity: 0.5,
-      width: 1,
-    },
-    shape: {
-      type: "square",
-    },
-    opacity: {
-      value: 0.7,
-    },
-    size: {
-      value: {
-        min: 2,
-        max: 5,
-      },
-    },
-    move: {
-      enable: true,
-      speed: 0.3,
-    },
-    onHover: {
-      mode: "push",
-    },
-  },
-  // interactivity: {
-  //   events: {
-  //     onHover: {
-  //       enable: true,
-  //       mode: "repulse",
-  //       size: 20,
-  //     },
-  //   },
-  // },
+// async function loadParticles(options) {
+//   await loadAll(tsParticles);
 
-  background: {
-    color: "#000",
-  },
-};
+//   await tsParticles.load({ id: "tsparticles", options });
+// }
 
-function Render() {
+// function Background(isDarkMode){
+//   let configs = {};
+// useEffect(() => {
+
+// }, [isDarkMode]);
+
+// return Render(configs);
+// }
+
+// function Render(configs) {
+//   useEffect(() => {
+//     loadParticles(configs);
+//   }, []);
+
+//   return <div id={"tsparticles"} style={{ zIndex: 0 }}></div>;
+// }
+
+function Background({ mode }) {
+
+  const load = async () => {
+    await loadAll(tsParticles);
+
+    await tsParticles.load({id: "tsparticles", options: getConfig(mode)});
+  }
+
   useEffect(() => {
-    loadParticles(configs);
-  }, []);
+    load()
+  }, [mode]);
+
 
   return <div id={"tsparticles"} style={{ zIndex: 0 }}></div>;
 }
 
-export default Render;
+export default Background;
