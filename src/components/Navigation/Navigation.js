@@ -39,7 +39,7 @@ const Navigation = () => {
         </li>
 
         <li className={"socials"} style={{ marginLeft: "auto" }}>
-          <a href="https://github.com/andrew03meyer" target={"_blank"}>
+          <a href="https://github.com/andrew03meyer" target="_blank">
             <img className="logo" src={GitHubLogo} alt="github"></img>
           </a>
         </li>

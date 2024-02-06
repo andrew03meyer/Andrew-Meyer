@@ -1,14 +1,10 @@
 import React from "react";
 import "./Homepage.css";
 import homeImage from "../../assets/images/homePhoto.jpg";
-import Navbar from "../Navigation/Navigation";
-import Background from "../Background/Background";
 
 function Homepage() {
   return (
     <>
-      <Background />
-      <Navbar />
       <div className={"profile"} style={{ zIndex: "1" }}>
         <div id={"container"}>
           <img id="home_photo" src={homeImage} alt={"Photo of me"}></img>

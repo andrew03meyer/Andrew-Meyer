@@ -10,14 +10,10 @@ import pub from "../../assets/images/pub.jpg";
 import kinsey from "../../assets/images/kinsey.jpg";
 import kinsey2 from "../../assets/images/kinsey2.jpg";
 import React from "react";
-import Navbar from "../Navigation/Navigation";
-import Background from "../Background/Background";
 
 function PhotoCollage() {
   return (
     <>
-      <Background />
-      <Navbar />
       <h1>My Gallery:</h1>
       <div className={"container"}>
         <div className={"container-img"}>
