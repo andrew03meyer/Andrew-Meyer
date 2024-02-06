@@ -1,3 +1,4 @@
+/* webkit Applies to whole project */
 ::-webkit-scrollbar {
     width: 10px;
     background: #444;
@@ -59,7 +60,7 @@
     padding: 1vw;
     border-radius: 1vw;
     filter: brightness(120%);
-    box-shadow: 1vw 1vw 1vw #111;
+    /*box-shadow: 1vw 1vw 1vw #111;*/
     /*background-color: #000;*/
     background-color: rgba(0,0,0, 0.5);
 }
@@ -79,10 +80,4 @@
     margin-bottom: 15px;
     font-size: 1.2rem;
     color: #fff;
-}
-
-.rule {
-    border: lightgrey solid 1px;
-    box-shadow: 0 0 1vh 0.5vh lightgrey;
-    filter: brightness(105%);
 }
