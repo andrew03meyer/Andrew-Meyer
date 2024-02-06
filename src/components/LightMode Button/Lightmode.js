@@ -16,9 +16,8 @@ function Lightmode() {
         className={isDarkMode ? "dark-mode" : "light-mode"}
         onClick={modeChange}
       >
-        Change mode
+        <div className={isDarkMode ? "slider-dark" : "slider-light"}></div>
       </div>
-      {/* {isDarkMode && <Background />} */}
       <Background mode={isDarkMode} />
     </>
   );

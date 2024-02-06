@@ -20,7 +20,7 @@ const getConfig = (isDarkMode) => {
           width: 1,
         },
         shape: {
-          type: "square",
+          type: "circle",
         },
         opacity: {
           value: 0.7,
@@ -37,6 +37,9 @@ const getConfig = (isDarkMode) => {
         },
         onHover: {
           mode: "push",
+        },
+        shadow: {
+          blur: 5,
         },
       },
       background: {
@@ -61,7 +64,7 @@ const getConfig = (isDarkMode) => {
         width: 1,
       },
       shape: {
-        type: "square",
+        type: "circle",
       },
       opacity: {
         value: 0.7,
@@ -81,33 +84,10 @@ const getConfig = (isDarkMode) => {
       },
     },
     background: {
-      color: "#fff",
+      color: "#faf0ca",
     },
   };
 };
-
-// async function loadParticles(options) {
-//   await loadAll(tsParticles);
-
-//   await tsParticles.load({ id: "tsparticles", options });
-// }
-
-// function Background(isDarkMode){
-//   let configs = {};
-// useEffect(() => {
-
-// }, [isDarkMode]);
-
-// return Render(configs);
-// }
-
-// function Render(configs) {
-//   useEffect(() => {
-//     loadParticles(configs);
-//   }, []);
-
-//   return <div id={"tsparticles"} style={{ zIndex: 0 }}></div>;
-// }
 
 function Background({ mode }) {
   const load = async () => {
