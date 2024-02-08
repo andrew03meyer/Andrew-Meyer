@@ -6,6 +6,12 @@
     z-index: 1;
 }
 
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-img .image-hor{
     display: flex;
     align-items: center;
@@ -21,17 +27,6 @@
     transition-duration: 0.75s;
     filter: brightness(0.6);
 }
-
-.container-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* .contianer-img .text-overlay{
-    display: block;
-    animation: fadeOut 1s;
-} */
 
 .container-img:hover .image-ver{
     transition-duration: 0.75s;
@@ -53,11 +48,6 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-
-/* @keyframes fadeOut {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-} */
 
 .image-hor{
     display: flex;

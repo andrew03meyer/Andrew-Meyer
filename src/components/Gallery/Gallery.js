@@ -3,12 +3,12 @@ import PfP from "../../assets/images/id_photo.jpg";
 import Drilling from "../../assets/images/Drilling.jpg";
 import Wedding from "../../assets/images/Wedding.jpg";
 import Working from "../../assets/images/working.jpg";
-import meandbec from "../../assets/images/meandbec.jpg";
-import canoe from "../../assets/images/canoe.jpg";
-import canalboat from "../../assets/images/canalboat.jpg";
-import pub from "../../assets/images/pub.jpg";
-import kinsey from "../../assets/images/kinsey.jpg";
-import kinsey2 from "../../assets/images/kinsey2.jpg";
+import MeAndBec from "../../assets/images/meandbec.jpg";
+import Canoe from "../../assets/images/canoe.jpg";
+import CanalBoat from "../../assets/images/canalboat.jpg";
+import Pub from "../../assets/images/pub.jpg";
+import Kinsey from "../../assets/images/kinsey.jpg";
+import Kinsey2 from "../../assets/images/kinsey2.jpg";
 import React from "react";
 
 function PhotoCollage() {
@@ -41,40 +41,40 @@ function PhotoCollage() {
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={meandbec} alt="Wedding"></img>
+          <img className={"image-hor"} src={MeAndBec} alt="Wedding"></img>
           <div className={"text-overlay"}>Me and my sister at her wedding</div>
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={canoe} alt="ID Photo"></img>
+          <img className={"image-hor"} src={Canoe} alt="ID Photo"></img>
           <div className={"text-overlay"}>
             A photo of me when i went canoeing
           </div>
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={canalboat} alt="ID Photo"></img>
+          <img className={"image-hor"} src={CanalBoat} alt="ID Photo"></img>
           <div className={"text-overlay"}>
             A photo of me and my sister on a canal boat
           </div>
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={pub} alt="ID Photo"></img>
+          <img className={"image-hor"} src={Pub} alt="ID Photo"></img>
           <div className={"text-overlay"}>
             A photo of me enjoying a beer at a pub, after some canoeing!
           </div>
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={kinsey} alt="ID Photo"></img>
+          <img className={"image-hor"} src={Kinsey} alt="ID Photo"></img>
           <div className={"text-overlay"}>
             A photo of Kinsey Meyer-Ridley on my shoulder
           </div>
         </div>
 
         <div className={"container-img"}>
-          <img className={"image-hor"} src={kinsey2} alt="ID Photo"></img>
+          <img className={"image-hor"} src={Kinsey2} alt="ID Photo"></img>
           <div className={"text-overlay"}>
             Another photo of Kinsey Meyer-Ridley
           </div>
