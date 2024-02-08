@@ -1,14 +1,14 @@
 import "./Gallery.css";
-import PfP from "../../assets/images/id_photo.jpg";
-import Drilling from "../../assets/images/Drilling.jpg";
+import PfP from "../../assets/images/id_photo.webp";
+import Drilling from "../../assets/images/Drilling.webp";
 import Wedding from "../../assets/images/Wedding.jpg";
 import Working from "../../assets/images/working.jpg";
-import MeAndBec from "../../assets/images/meandbec.jpg";
-import Canoe from "../../assets/images/canoe.jpg";
-import CanalBoat from "../../assets/images/canalboat.jpg";
-import Pub from "../../assets/images/pub.jpg";
-import Kinsey from "../../assets/images/kinsey.jpg";
-import Kinsey2 from "../../assets/images/kinsey2.jpg";
+import MeAndBec from "../../assets/images/meandbec.webp";
+import Canoe from "../../assets/images/canoe.webp";
+import CanalBoat from "../../assets/images/canalboat.webp";
+import Pub from "../../assets/images/pub.webp";
+import Kinsey from "../../assets/images/kinsey.webp";
+import Kinsey2 from "../../assets/images/kinsey2.webp";
 import React from "react";
 
 function PhotoCollage() {

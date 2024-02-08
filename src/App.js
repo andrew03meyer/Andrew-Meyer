@@ -6,6 +6,7 @@ import Navbar from "./components/Navigation/Navigation";
 import Background from "./components/Background/Background";
 import Gallery from "./components/Gallery/Gallery";
 import CV from "./components/CV/CV";
+import Programming from "./Programming/Programming";
 
 //
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/ringing" element={<Ringing />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/cv" element={<CV />} />
+          <Route path="/programming" element={<Programming />} />
         </Routes>
       </Router>
     </div>

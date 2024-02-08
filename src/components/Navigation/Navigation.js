@@ -33,11 +33,9 @@ const Navigation = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
-        {/*<li>*/}
-        {/*  <a href={CV} download={encodeURIComponent("CV.docx")}>*/}
-        {/*    CV*/}
-        {/*  </a>*/}
-        {/*</li>*/}
+        <li>
+          <Link to="/programming">Programming</Link>
+        </li>
         <li>
           <Link to="/cv">CV</Link>
         </li>

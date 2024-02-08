@@ -1,0 +1,30 @@
+.main-content-programming{
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 10vh;
+}
+
+.main-content-programming th{
+    font-size: 2.5em;
+    margin: 0;
+    /* padding: 2vh; */
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.main-content-programming td{
+    padding-bottom: 50vh;
+    text-align: center;
+}
+
+.main-content-programming p{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    width: 60%;
+    padding-left: 20%;
+}
