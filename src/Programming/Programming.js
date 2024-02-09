@@ -50,7 +50,7 @@ function Programming() {
                   university. I was introduced to it in my first year and have
                   been using it ever since. Many of of the projects I have done
                   have been in Java, and I have been developing my skills of OOP
-                  since A-Level.
+                  since A-Level. Examples can be found on my GitHub.
                 </p>
               </td>
             </tr>
@@ -70,7 +70,8 @@ function Programming() {
                   course. Both my NEA and the exam were in Python, and I have
                   used it for a couple of small projects since. I would like to
                   develop my skills in Python, but have taken an interest in
-                  Java and web development currently.
+                  Java and web development currently. Although I don't have many
+                  online, you can find some examples of my Python work on my GitHub.
                 </p>
               </td>
             </tr>
