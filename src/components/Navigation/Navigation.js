@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navigation.css";
 import AMlogo from "../../assets/images/logopng.png";
 import GitHubLogo from "../../assets/images/github_logo.svg";
 import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
 import InstagramLogo from "../../assets/images/instagram_logo.webp";
 import Lightmode from "../LightMode Button/Lightmode";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <nav>
+    <nav className="main-nav">
       <ul>
         <li>
           <Lightmode />

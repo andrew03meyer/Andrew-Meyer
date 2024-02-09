@@ -1,68 +1,70 @@
-/*
- * Source: https://www.w3schools.com/css/css_navbar_horizontal.asp
- */
+/* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
-@media only screen and (max-width:768px){
-    ul{
+@media only screen and (max-width: 768px) {
+    .main-nav ul {
+        position: relative;
         overflow: scroll;
     }
 }
 
-ul {
+.main-nav ul {
+    position: relative;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding-left: 0;
     align-items: center;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 1;
 }
 
-li {
+.main-nav li {
+    position: relative;
+    list-style-type: none;
     float: left;
     font-size: max(16px, 1vw);
-    font-family: Bahnschrift sans-serif;
+    font-family: Bahnschrift, sans-serif;
     align-items: center;
     color: white;
     margin: max(10px, 0.5vw);
     z-index: 1;
 }
 
-li.socials{
+.main-nav li.socials {
+    position: relative;
     float: right;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     z-index: 1;
 }
 
-li.socials:hover{
+.main-nav li.socials:hover {
+    position: relative;
     filter: brightness(20%);
     transition-duration: 1s;
-    z-index: 1;
+    z-index: 2;
 }
 
-li a {
+.main-nav li a {
+    position: relative;
     display: block;
     color: white;
     text-align: center;
     padding: 0.5vw 0.5vw;
     text-decoration: none;
-    /*margin: max(10px, 0.2vw);*/
     border-radius: 15px;
-    z-index: 1;
+    z-index: 2;
 }
 
-li a:hover:not(.active) {
+.main-nav li a:hover:not(.active) {
+    position: relative;
     background-color: #111;
-    z-index: 1;
+    z-index: 2;
 }
 
-/*.active {*/
-/*    background-color: #04AA6D;*/
-/*}*/
-
-.logo {
+.main-nav .logo {
+    position: relative;
     width: max(2vw, 15px);
     height: max(2vw, 15px);
     margin: max(5px, 0.5vw);
@@ -72,7 +74,8 @@ li a:hover:not(.active) {
     z-index: 1;
 }
 
-.name{
+.main-nav .name {
+    position: relative;
     margin-right: 1vw;
     margin-left: 0.5vw;
     padding-right: 5px;

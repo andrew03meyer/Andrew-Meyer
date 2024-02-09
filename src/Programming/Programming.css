@@ -1,6 +1,10 @@
 .scroll-panel{
+    position: relative;
     float: right;
     background-color:aliceblue;
+    width:100px;
+    height: 100px;
+    z-index: 1;
 }
 
 .scroll-panel ul{

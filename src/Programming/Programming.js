@@ -14,7 +14,7 @@ function Programming() {
             <div className="scroll-panel">
                 <ul>
                     <li>
-                        <a href="#section1">Java</a>
+                        <a href="/programming/#section1">Java</a>
                     </li>
                     <li>
                         Python
