@@ -4,10 +4,34 @@ import PythonLogo from "../assets/images/python.svg";
 import HtmlLogo from "../assets/images/html-logo.png";
 import CssLogo from "../assets/images/css-logo.png";
 import JavaScriptLogo from "../assets/images/javascript-logo.png";
+import PostGreLogo from "../assets/images/postgre-logo.png"
+import HaskellLogo from "../assets/images/haskell-logo.png"
 
 function Programming() {
     return (
         <>
+        <nav>
+            <div className="scroll-panel">
+                <ul>
+                    <li>
+                        Java
+                    </li>
+                    <li>
+                        Python
+                    </li>
+                    <li>
+                        HTML/CSS/JavaScript
+                    </li>
+                    <li>
+                        PostGreSQL
+                    </li>
+                    <li>
+                        Haskell
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
         <div className={"main-content-programming"}>
             <table>
                 <tbody>
@@ -67,6 +91,11 @@ function Programming() {
                         </td>
                     </tr>
                     <tr>
+                        <th>
+                            <img src={PostGreLogo} alt="Postgre Logo" style={{maxWidth : "15%"}} />
+                        </th>
+                    </tr>
+                    <tr>
                         <th>PostGreSQL</th>
                     </tr>
                     <tr>
@@ -79,6 +108,11 @@ function Programming() {
                                 future.
                             </p>
                         </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src={HaskellLogo} alt="Haskell Logo" style={{maxWidth : "15%"}} />
+                        </th>
                     </tr>
                     <tr>
                         <th>Haskell</th>
