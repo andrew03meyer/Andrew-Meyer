@@ -57,9 +57,9 @@ function Ringing() {
           <p>
             I have also taken a strong interest in steeple keeping, mainly at my
             local towers and St Mary le Bow (London). Soon to be proposed for
-            steeple keeper at Bow. More recently, I have helped install a new 
-            electric sound control system at Bow. And am currently working on
-            a Rasberry Pi based system for streaming the bells.
+            steeple keeper at Bow. More recently, I have helped install a new
+            electric sound control system at Bow. And am currently working on a
+            Rasberry Pi based system for streaming the bells.
           </p>
           <p>
             Recently, I have been lucky enough to get my hands on a Bagley Meter
