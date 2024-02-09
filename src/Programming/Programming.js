@@ -10,11 +10,11 @@ import HaskellLogo from "../assets/images/haskell-logo.png"
 function Programming() {
     return (
         <>
-        <nav>
+        {/* <nav>
             <div className="scroll-panel">
                 <ul>
                     <li>
-                        Java
+                        <a href="#section1">Java</a>
                     </li>
                     <li>
                         Python
@@ -30,9 +30,9 @@ function Programming() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> */}
 
-        <div className={"main-content-programming"}>
+        <div className={"main-content-programming"} id="section1">
             <table>
                 <tbody>
                     <tr>
