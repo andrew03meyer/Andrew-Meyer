@@ -31,7 +31,7 @@ function Homepage() {
             <h3>Bellringing</h3>
             <p>
               I am a longstanding bell ringer, having started at the age of 4.
-              it is a incredible hobby that I have been able to develop to a
+              It is a incredible hobby that I have been able to develop to a
               high level, as well as building a great community of friends.
             </p>
             <p>
