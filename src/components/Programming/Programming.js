@@ -71,7 +71,8 @@ function Programming() {
                   used it for a couple of small projects since. I would like to
                   develop my skills in Python, but have taken an interest in
                   Java and web development currently. Although I don't have many
-                  online, you can find some examples of my Python work on my GitHub.
+                  online, you can find some examples of my Python work on my
+                  GitHub.
                 </p>
               </td>
             </tr>
