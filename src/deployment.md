@@ -9,6 +9,7 @@
    - You then have to re-enter the domain on Github and wait for DNS check
       - Go onto the Repo -> Settings -> Custom Domain
       - Otherwise it will automatically deploy on the default GH link
+    - It should always deploy from gh-pages branch and from "/(root)"
 
 # Domain Detail
 - Domain purchased on Namecheap
