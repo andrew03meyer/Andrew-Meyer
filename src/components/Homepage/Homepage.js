@@ -11,43 +11,50 @@ function Homepage() {
         </div>
         <div>
           <div className={"main-content"}>
-            <h1>Hello. I'm glad you've found my page!</h1>
+            <h1>Welcome!</h1>
             <p>
-              This website is for me to upload a bit about myself (and spend
-              some time developing my programming skills). Do have a look
-              around. There are some sections about me and a gallery of a number
-              of good times!
+              Welcome to my website! Please feel free to look around and find out
+              more about me and what I do. As well as being a good showcase of me,
+              this website is also a personal project for me to develop my abilities
+              in React and web development. If you have any questions or comments
+              please do get in touch!
             </p>
           </div>
 
           <div className={"main-content"}>
-            <h1>A bit about me</h1>
+            <h2>A bit about me</h2>
             <p>
-              I'm a current student at the university of Kent in Canterbury. I'm
-              in my second year doing a BSc. My modules, and marks, will be
-              uploaded in a separate section on this website.
+              As a current student at the university of Kent in Canterbury, 
+              I have just finished my year in industry at the MSP Wanstor 
+              but am staying on over my final year, part time.
+            </p>
+            <h3>Bellringing</h3>
+            <p>
+              I am a longstanding bell ringer, having started at the age of 4. 
+              it is a incredible hobby that I have been able to develop to a high 
+              level, as well as building a great community of friends.
+            </p>
+            <p>               
+              I currently hold the position of Steeplekeeper at St Mary le Bow
+              in London, and was elected (by vote) into this role in 2023 on behalf 
+              of the Ancient Society of College Youths. This position I take very 
+              seriously and am proud to be able to volunteer my time to help maintain 
+              the bells and tower.
             </p>
             <p>
-              I'm a long standing Bell ringer (16 years+) and have taken to
-              teaching and bell maintenance as of late. I do most of my ringing
-              in either London or Canterbury, but do travel round a bit!
+              As well as this, I have also taken up teaching the art of Ringing 
+              to a wide range of people, from children to adults. It is a very 
+              rewarding experience which I hope to be able to continue in the future.
             </p>
-            <p>
-              I've also taken up tennis since joining university. So far I'm ok!
-              I'm very much enjoying it though and hopefully will improve in the
-              future!
-            </p>
-          </div>
-
-          <div className={"main-content"}>
-            <h1>Opportunities:</h1>
-            <p>
-              I'm currently looking for a year in industry (in the Computer
-              Science area) and am open to any offers. Ideally, I would start
-              sometime June-July 2024 and work till September 2025. If you have
-              any opportunities that you think I may be interested in please do
-              contact me!
-            </p>
+            <h3>Other Hobbies</h3>
+            <ul>
+              <li>Programming</li>
+              <li>Tennis</li>
+              <li>Golf</li>
+              <li>Hiking</li>
+              <li>DIY</li>
+              <li>Cooking</li>
+            </ul>
           </div>
         </div>
       </div>

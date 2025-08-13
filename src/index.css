@@ -17,16 +17,39 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-family: Bahnschrift sans-serif;
+  font-size: 3rem;
 }
 
 h2 {
-  color: black;
+  text-align: left;
+  color: #bab0a6;
   font-family: Bahnschrift sans-serif;
+  font-size: 2.25rem;
+  font-style: italic;
+}
+
+h3 {
+  text-align: left;
+  color: #bab0a6;
+  font-family: Bahnschrift sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 p {
-  color: black;
-  font-family: Bahnschrift sans-serif;
+    margin-top:0.1vw;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+ul {
+    margin-top:0.1vw;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 /* html {

@@ -6,7 +6,8 @@ import Navbar from "./components/Navigation/Navigation";
 import Background from "./components/Background/Background";
 import Gallery from "./components/Gallery/Gallery";
 import CV from "./components/CV/CV";
-import Programming from "./Programming/Programming";
+import Programming from "./components/Programming/Programming";
+import Banner from "./components/Banner/Banner";
 
 //
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Background />
         <Navbar />
+        <Banner />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/ringing" element={<Ringing />} />

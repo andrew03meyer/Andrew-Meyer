@@ -1,0 +1,27 @@
+.banner {
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
+    /* padding: 1rem; */
+    background-color: #bab0a6;
+    /* border-radius: 10px; */
+    align-content: center;
+    align-items: center;
+    
+}
+.banner h1 {
+    /* position: "relative"; */
+    margin: 0rem;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+.banner p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 0rem;
+}

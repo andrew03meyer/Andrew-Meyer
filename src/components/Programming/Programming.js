@@ -1,11 +1,11 @@
 import React from "react";
 import "./Programming.css";
-import PythonLogo from "../assets/images/python.svg";
-import HtmlLogo from "../assets/images/html-logo.png";
-import CssLogo from "../assets/images/css-logo.png";
-import JavaScriptLogo from "../assets/images/javascript-logo.png";
-import PostGreLogo from "../assets/images/postgre-logo.png";
-import HaskellLogo from "../assets/images/haskell-logo.png";
+import PythonLogo from "../../assets/images/python.svg";
+import HtmlLogo from "../../assets/images/html-logo.png";
+import CssLogo from "../../assets/images/css-logo.png";
+import JavaScriptLogo from "../../assets/images/javascript-logo.png";
+import PostGreLogo from "../../assets/images/postgre-logo.png";
+import HaskellLogo from "../../assets/images/haskell-logo.png";
 
 function Programming() {
   return (

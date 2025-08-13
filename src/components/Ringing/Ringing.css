@@ -22,7 +22,7 @@
     position: relative;
     z-index: 1;
     /*background-color: rgba(0,0,0, 0.5);*/
-    color: #fff;
+    /* color: #fff; */
 }
 
 .main-content-ringing {
@@ -40,8 +40,8 @@
 
 .main-content-ringing h1{
     text-align: left;
-    margin: 2vh;
-    color: #cfc288;
+    /* margin: 2vh; */
+    /* color: #cfc288; */
     display: block;
     font-size: 2rem;
 }
@@ -49,7 +49,7 @@
 .main-content-ringing p {
     font-size: 1.2rem;
     /*margin: 1vh*/
-    color: #fff;
+    /* color: #fff; */
 }
 
 .picture{
