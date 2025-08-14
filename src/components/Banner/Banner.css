@@ -12,14 +12,14 @@
     /* position: "relative"; */
     margin: 0rem;
     margin-top: 1rem;
-    color: white;
+    color: black;
     text-align: center;
     font-style: italic;
     font-size: 1.75rem;
 }
 
 .banner p {
-    color: whitesmoke;
+    color: black;
     text-align: center;
     font-size: 0.8rem;
     font-style: italic;
