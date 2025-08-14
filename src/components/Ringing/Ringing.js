@@ -24,7 +24,7 @@ function Ringing() {
         <div className={"rule"}></div>
 
         <div className={"main-content-ringing"}>
-          <h1>My Ringing Career</h1>
+          <h2>My Ringing Career</h2>
           <p>
             I started off ringing at a very young age (4yrs) and have
             consistently carried it on through my life. It is a hobby that I
@@ -53,7 +53,7 @@ function Ringing() {
 
       <div className={"picture-and-text"}>
         <div className={"main-content-ringing"}>
-          <h1>Steeple Keeping</h1>
+          <h2>Steeple Keeping</h2>
           <p>
             I have also taken a strong interest in steeple keeping, mainly at my
             local towers and St Mary le Bow (London). Soon to be proposed for
@@ -68,7 +68,7 @@ function Ringing() {
             bells and have been developing my skills the whole time.
           </p>
 
-          <h1>Teaching</h1>
+          <h2>Teaching</h2>
           <p>
             I started teaching people to ring more recently. I have completed
             ART's (Association of Ringing Teachers) module 1, twice. Since then,

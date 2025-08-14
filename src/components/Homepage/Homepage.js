@@ -48,14 +48,31 @@ function Homepage() {
               future.
             </p>
             <h3>Other Hobbies</h3>
-            <ul>
-              <li>Programming</li>
-              <li>Tennis</li>
-              <li>Golf</li>
-              <li>Hiking</li>
-              <li>DIY</li>
-              <li>Cooking</li>
-            </ul>
+
+            <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Programming</li>
+                    <li>Tennis</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Hiking</li>
+                    <li>DIY</li>
+                    
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Golf</li>
+                    <li>Cooking</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+
           </div>
         </div>
       </div>
