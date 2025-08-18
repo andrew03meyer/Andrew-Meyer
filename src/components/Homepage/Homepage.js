@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import homeImage from "../../assets/images/homePhoto.jpg";
+import homeImage from "../../assets/images/PFP - TRG.jpeg";
 
 function Homepage() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AMlogo from "../../assets/images/logopng.png";
+import AMlogo from "../../assets/images/homePhoto.jpg";
 import GitHubLogo from "../../assets/images/github_logo.svg";
 import LinkedinLogo from "../../assets/images/linkedin_logo.webp";
 import FacebookLogo from "../../assets/images/Facebook_logo.svg";
@@ -13,17 +13,13 @@ const Navigation = () => {
     <nav className="main-nav">
       <ul>
         <li>
-          <Lightmode />
+          <img className="profilePhoto" src={AMlogo} alt="AM logo"></img>
         </li>
         <li>
-          <img className="logo" src={AMlogo} alt="AM logo"></img>
+          {/* <Link to="/" className={"name"}> */}
+            <p>Andrew Meyer</p>
+          {/* </Link> */}
         </li>
-        <li>
-          <Link to="/" className={"name"}>
-            Andrew Meyer
-          </Link>
-        </li>
-
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -65,6 +61,9 @@ const Navigation = () => {
           <a href="https://www.instagram.com/andrew03meyer/" target={"_blank"}>
             <img className="logo" src={InstagramLogo} alt="Instagram"></img>
           </a>
+        </li>
+        <li>
+          <Lightmode />
         </li>
       </ul>
     </nav>

@@ -14,7 +14,8 @@
     margin: 0;
     padding-left: 0;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
     position: relative;
     z-index: 1;
 }
@@ -26,7 +27,7 @@
     font-size: max(16px, 1vw);
     font-family: Bahnschrift, sans-serif;
     align-items: center;
-    color: white;
+    color: #bab0a6;
     margin: max(10px, 0.5vw);
     z-index: 1;
 }
@@ -37,6 +38,7 @@
     margin: 0;
     padding: 0;
     z-index: 1;
+    align-items: center;
 }
 
 .main-nav li.socials:hover {
@@ -44,30 +46,59 @@
     filter: brightness(20%);
     transition-duration: 1s;
     z-index: 2;
+    padding-top: 10px;
+    /* width: max(3vw, 30px);
+    height: max(3vw, 30px);*/
+    align-items: center;
 }
 
 .main-nav li a {
     position: relative;
     display: block;
-    color: white;
+    color: #bab0a6;
+    font-style: italic;
     text-align: center;
     padding: 0.5vw 0.5vw;
     text-decoration: none;
     border-radius: 15px;
     z-index: 2;
+    margin: auto;
+    font-weight: bold;
+    align-items: center;
 }
 
 .main-nav li a:hover:not(.active) {
     position: relative;
-    background-color: #111;
+    background-color: #222;
     z-index: 2;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+.main-nav li p {
+    position: relative;
+    display: block;
+    color: #bab0a6;
+    font-style: italic;
+    text-align: center;
+    padding: 0.5vw 0.5vw;
+    text-decoration: underline;
+    border-radius: 15px;
+    z-index: 2;
+    margin: auto;
+    font-weight: bold;
+    align-items: center;
+    font-size: x-large;
 }
 
 .main-nav .logo {
     position: relative;
     width: max(2vw, 15px);
     height: max(2vw, 15px);
-    margin: max(5px, 0.5vw);
+    /* margin: max(5px, 0.5vw); */
     background-color: white;
     border: white 1px solid;
     border-radius: 50%;
@@ -80,4 +111,13 @@
     margin-left: 0.5vw;
     padding-right: 5px;
     z-index: 1;
+}
+
+.main-nav .profilePhoto{
+    position:relative;
+    border-radius: 50%;
+    margin:0%;
+    width: max(3vw, 30px);
+    height: max(3vw, 30px);
+    margin: auto
 }
