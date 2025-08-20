@@ -17,7 +17,7 @@ const Navigation = () => {
         </li>
         <li>
           {/* <Link to="/" className={"name"}> */}
-            <p>Andrew Meyer</p>
+          <p>Andrew Meyer</p>
           {/* </Link> */}
         </li>
         <li>

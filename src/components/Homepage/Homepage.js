@@ -61,7 +61,6 @@ function Homepage() {
                   <ul>
                     <li>Hiking</li>
                     <li>DIY</li>
-                    
                   </ul>
                 </td>
                 <td>
@@ -72,7 +71,6 @@ function Homepage() {
                 </td>
               </tr>
             </table>
-
           </div>
         </div>
       </div>

@@ -5,6 +5,36 @@
         position: relative;
         overflow: scroll;
     }
+
+    .main-nav li a:hover:not(.active) {
+        position: relative;
+        background-color: #222;
+        z-index: 2;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.7rem;
+        transition-duration: 0.5s;
+    }
+
+    .main-nav li p {
+        position: relative;
+        display: block;
+        color: #bab0a6;
+        font-style: italic;
+        text-align: center;
+        padding: 0.5vw 0.5vw;
+        text-decoration: underline;
+        border-radius: 15px;
+        z-index: 2;
+        margin: auto;
+        font-weight: bold;
+        align-items: center;
+        font-size: x-large;
+    }
+    .main-nav li {
+        font-size: large;
+    }
 }
 
 .main-nav ul {
@@ -74,7 +104,7 @@
     margin: auto;
     text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size: 1.7rem;
     transition-duration: 0.5s;
 }
 
@@ -92,6 +122,9 @@
     font-weight: bold;
     align-items: center;
     font-size: x-large;
+}
+.main-nav li {
+    font-size: 1.5rem;
 }
 
 .main-nav .logo {
